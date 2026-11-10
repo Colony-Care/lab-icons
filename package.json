@@ -1,0 +1,14 @@
+{
+  "name": "@colony-care/lab-icons",
+  "version": "0.1.0",
+  "description": "Open-source icons of laboratory animals: species icons and dorsal, ventral and lateral views.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

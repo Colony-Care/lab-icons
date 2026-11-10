@@ -1,0 +1,1273 @@
+[
+  {
+    "slug": "ant",
+    "set": "species",
+    "species": "ant",
+    "file": "icons/species/ant.svg",
+    "name": {
+      "en": "Ant",
+      "fr": "Fourmi"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "cat",
+    "set": "species",
+    "species": "cat",
+    "file": "icons/species/cat.svg",
+    "name": {
+      "en": "Cat",
+      "fr": "Chat"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "cattle",
+    "set": "species",
+    "species": "cattle",
+    "file": "icons/species/cattle.svg",
+    "name": {
+      "en": "Cattle",
+      "fr": "Bovin"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "cow"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vache"
+      ]
+    }
+  },
+  {
+    "slug": "chicken",
+    "set": "species",
+    "species": "chicken",
+    "file": "icons/species/chicken.svg",
+    "name": {
+      "en": "Chicken",
+      "fr": "Poulet"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "dog",
+    "set": "species",
+    "species": "dog",
+    "file": "icons/species/dog.svg",
+    "name": {
+      "en": "Dog",
+      "fr": "Chien"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "ferret",
+    "set": "species",
+    "species": "ferret",
+    "file": "icons/species/ferret.svg",
+    "name": {
+      "en": "Ferret",
+      "fr": "Furet"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "frog",
+    "set": "species",
+    "species": "frog",
+    "file": "icons/species/frog.svg",
+    "name": {
+      "en": "Frog",
+      "fr": "Grenouille"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "goat",
+    "set": "species",
+    "species": "goat",
+    "file": "icons/species/goat.svg",
+    "name": {
+      "en": "Goat",
+      "fr": "Chèvre"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "guinea-pig",
+    "set": "species",
+    "species": "guinea-pig",
+    "file": "icons/species/guinea-pig.svg",
+    "name": {
+      "en": "Guinea pig",
+      "fr": "Cobaye"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur",
+        "cochon d'Inde"
+      ]
+    }
+  },
+  {
+    "slug": "hamster",
+    "set": "species",
+    "species": "hamster",
+    "file": "icons/species/hamster.svg",
+    "name": {
+      "en": "Hamster",
+      "fr": "Hamster"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur"
+      ]
+    }
+  },
+  {
+    "slug": "horse",
+    "set": "species",
+    "species": "horse",
+    "file": "icons/species/horse.svg",
+    "name": {
+      "en": "Horse",
+      "fr": "Cheval"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "mouse",
+    "set": "species",
+    "species": "mouse",
+    "file": "icons/species/mouse.svg",
+    "name": {
+      "en": "Mouse",
+      "fr": "Souris"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur"
+      ]
+    }
+  },
+  {
+    "slug": "pig",
+    "set": "species",
+    "species": "pig",
+    "file": "icons/species/pig.svg",
+    "name": {
+      "en": "Pig",
+      "fr": "Porc"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "cochon"
+      ]
+    }
+  },
+  {
+    "slug": "primate",
+    "set": "species",
+    "species": "primate",
+    "file": "icons/species/primate.svg",
+    "name": {
+      "en": "Non-human primate",
+      "fr": "Primate non humain"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "primate",
+        "nhp",
+        "monkey",
+        "macaque"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "primate",
+        "PNH",
+        "singe",
+        "macaque"
+      ]
+    }
+  },
+  {
+    "slug": "rabbit",
+    "set": "species",
+    "species": "rabbit",
+    "file": "icons/species/rabbit.svg",
+    "name": {
+      "en": "Rabbit",
+      "fr": "Lapin"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "rat",
+    "set": "species",
+    "species": "rat",
+    "file": "icons/species/rat.svg",
+    "name": {
+      "en": "Rat",
+      "fr": "Rat"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur"
+      ]
+    }
+  },
+  {
+    "slug": "sheep",
+    "set": "species",
+    "species": "sheep",
+    "file": "icons/species/sheep.svg",
+    "name": {
+      "en": "Sheep",
+      "fr": "Mouton"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "turkey",
+    "set": "species",
+    "species": "turkey",
+    "file": "icons/species/turkey.svg",
+    "name": {
+      "en": "Turkey",
+      "fr": "Dindon"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "zebrafish",
+    "set": "species",
+    "species": "zebrafish",
+    "file": "icons/species/zebrafish.svg",
+    "name": {
+      "en": "Zebrafish",
+      "fr": "Poisson-zèbre"
+    },
+    "tags": {
+      "en": [
+        "lab animal"
+      ],
+      "fr": [
+        "animal de laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "capuchin-dorsal",
+    "set": "views",
+    "species": "capuchin",
+    "view": "dorsal",
+    "file": "icons/views/capuchin-dorsal.svg",
+    "name": {
+      "en": "Capuchin monkey, dorsal view",
+      "fr": "Capucin, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "primate",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "primate",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "capuchin-ventral",
+    "set": "views",
+    "species": "capuchin",
+    "view": "ventral",
+    "file": "icons/views/capuchin-ventral.svg",
+    "name": {
+      "en": "Capuchin monkey, ventral view",
+      "fr": "Capucin, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "primate",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "primate",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "cat-dorsal",
+    "set": "views",
+    "species": "cat",
+    "view": "dorsal",
+    "file": "icons/views/cat-dorsal.svg",
+    "name": {
+      "en": "Cat, dorsal view",
+      "fr": "Chat, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "cat-ventral",
+    "set": "views",
+    "species": "cat",
+    "view": "ventral",
+    "file": "icons/views/cat-ventral.svg",
+    "name": {
+      "en": "Cat, ventral view",
+      "fr": "Chat, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "cattle-dorsal",
+    "set": "views",
+    "species": "cattle",
+    "view": "dorsal",
+    "file": "icons/views/cattle-dorsal.svg",
+    "name": {
+      "en": "Cattle, dorsal view",
+      "fr": "Bovin, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "cow",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vache",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "chicken-dorsal",
+    "set": "views",
+    "species": "chicken",
+    "view": "dorsal",
+    "file": "icons/views/chicken-dorsal.svg",
+    "name": {
+      "en": "Chicken, dorsal view",
+      "fr": "Poulet, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "chicken-ventral",
+    "set": "views",
+    "species": "chicken",
+    "view": "ventral",
+    "file": "icons/views/chicken-ventral.svg",
+    "name": {
+      "en": "Chicken, ventral view",
+      "fr": "Poulet, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "cotton-rat-dorsal",
+    "set": "views",
+    "species": "cotton-rat",
+    "view": "dorsal",
+    "file": "icons/views/cotton-rat-dorsal.svg",
+    "name": {
+      "en": "Cotton rat, dorsal view",
+      "fr": "Rat du coton, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "cotton-rat-ventral",
+    "set": "views",
+    "species": "cotton-rat",
+    "view": "ventral",
+    "file": "icons/views/cotton-rat-ventral.svg",
+    "name": {
+      "en": "Cotton rat, ventral view",
+      "fr": "Rat du coton, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "cynomolgus-macaque-dorsal",
+    "set": "views",
+    "species": "cynomolgus-macaque",
+    "view": "dorsal",
+    "file": "icons/views/cynomolgus-macaque-dorsal.svg",
+    "name": {
+      "en": "Cynomolgus macaque, dorsal view",
+      "fr": "Macaque crabier, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "primate",
+        "macaque",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "primate",
+        "macaque",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "cynomolgus-macaque-ventral",
+    "set": "views",
+    "species": "cynomolgus-macaque",
+    "view": "ventral",
+    "file": "icons/views/cynomolgus-macaque-ventral.svg",
+    "name": {
+      "en": "Cynomolgus macaque, ventral view",
+      "fr": "Macaque crabier, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "primate",
+        "macaque",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "primate",
+        "macaque",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "dog-dorsal",
+    "set": "views",
+    "species": "dog",
+    "view": "dorsal",
+    "file": "icons/views/dog-dorsal.svg",
+    "name": {
+      "en": "Dog, dorsal view",
+      "fr": "Chien, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "dog-ventral",
+    "set": "views",
+    "species": "dog",
+    "view": "ventral",
+    "file": "icons/views/dog-ventral.svg",
+    "name": {
+      "en": "Dog, ventral view",
+      "fr": "Chien, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "ferret-dorsal",
+    "set": "views",
+    "species": "ferret",
+    "view": "dorsal",
+    "file": "icons/views/ferret-dorsal.svg",
+    "name": {
+      "en": "Ferret, dorsal view",
+      "fr": "Furet, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "ferret-ventral",
+    "set": "views",
+    "species": "ferret",
+    "view": "ventral",
+    "file": "icons/views/ferret-ventral.svg",
+    "name": {
+      "en": "Ferret, ventral view",
+      "fr": "Furet, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "frog-dorsal",
+    "set": "views",
+    "species": "frog",
+    "view": "dorsal",
+    "file": "icons/views/frog-dorsal.svg",
+    "name": {
+      "en": "Frog, dorsal view",
+      "fr": "Grenouille, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "frog-ventral",
+    "set": "views",
+    "species": "frog",
+    "view": "ventral",
+    "file": "icons/views/frog-ventral.svg",
+    "name": {
+      "en": "Frog, ventral view",
+      "fr": "Grenouille, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "goat-dorsal",
+    "set": "views",
+    "species": "goat",
+    "view": "dorsal",
+    "file": "icons/views/goat-dorsal.svg",
+    "name": {
+      "en": "Goat, dorsal view",
+      "fr": "Chèvre, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "goat-ventral",
+    "set": "views",
+    "species": "goat",
+    "view": "ventral",
+    "file": "icons/views/goat-ventral.svg",
+    "name": {
+      "en": "Goat, ventral view",
+      "fr": "Chèvre, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "guinea-pig-dorsal",
+    "set": "views",
+    "species": "guinea-pig",
+    "view": "dorsal",
+    "file": "icons/views/guinea-pig-dorsal.svg",
+    "name": {
+      "en": "Guinea pig, dorsal view",
+      "fr": "Cobaye, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur",
+        "cochon d'Inde",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "guinea-pig-ventral",
+    "set": "views",
+    "species": "guinea-pig",
+    "view": "ventral",
+    "file": "icons/views/guinea-pig-ventral.svg",
+    "name": {
+      "en": "Guinea pig, ventral view",
+      "fr": "Cobaye, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur",
+        "cochon d'Inde",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "hamster-dorsal",
+    "set": "views",
+    "species": "hamster",
+    "view": "dorsal",
+    "file": "icons/views/hamster-dorsal.svg",
+    "name": {
+      "en": "Hamster, dorsal view",
+      "fr": "Hamster, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "hamster-ventral",
+    "set": "views",
+    "species": "hamster",
+    "view": "ventral",
+    "file": "icons/views/hamster-ventral.svg",
+    "name": {
+      "en": "Hamster, ventral view",
+      "fr": "Hamster, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "horse-dorsal",
+    "set": "views",
+    "species": "horse",
+    "view": "dorsal",
+    "file": "icons/views/horse-dorsal.svg",
+    "name": {
+      "en": "Horse, dorsal view",
+      "fr": "Cheval, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "minipig-dorsal",
+    "set": "views",
+    "species": "minipig",
+    "view": "dorsal",
+    "file": "icons/views/minipig-dorsal.svg",
+    "name": {
+      "en": "Minipig, dorsal view",
+      "fr": "Miniporc, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "cochon",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "minipig-ventral",
+    "set": "views",
+    "species": "minipig",
+    "view": "ventral",
+    "file": "icons/views/minipig-ventral.svg",
+    "name": {
+      "en": "Minipig, ventral view",
+      "fr": "Miniporc, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "cochon",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "mouse-dorsal",
+    "set": "views",
+    "species": "mouse",
+    "view": "dorsal",
+    "file": "icons/views/mouse-dorsal.svg",
+    "name": {
+      "en": "Mouse, dorsal view",
+      "fr": "Souris, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "mouse-ventral",
+    "set": "views",
+    "species": "mouse",
+    "view": "ventral",
+    "file": "icons/views/mouse-ventral.svg",
+    "name": {
+      "en": "Mouse, ventral view",
+      "fr": "Souris, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "pig-dorsal",
+    "set": "views",
+    "species": "pig",
+    "view": "dorsal",
+    "file": "icons/views/pig-dorsal.svg",
+    "name": {
+      "en": "Pig, dorsal view",
+      "fr": "Porc, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "cochon",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "pig-ventral",
+    "set": "views",
+    "species": "pig",
+    "view": "ventral",
+    "file": "icons/views/pig-ventral.svg",
+    "name": {
+      "en": "Pig, ventral view",
+      "fr": "Porc, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "cochon",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "rabbit-dorsal",
+    "set": "views",
+    "species": "rabbit",
+    "view": "dorsal",
+    "file": "icons/views/rabbit-dorsal.svg",
+    "name": {
+      "en": "Rabbit, dorsal view",
+      "fr": "Lapin, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "rabbit-ventral",
+    "set": "views",
+    "species": "rabbit",
+    "view": "ventral",
+    "file": "icons/views/rabbit-ventral.svg",
+    "name": {
+      "en": "Rabbit, ventral view",
+      "fr": "Lapin, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "rat-dorsal",
+    "set": "views",
+    "species": "rat",
+    "view": "dorsal",
+    "file": "icons/views/rat-dorsal.svg",
+    "name": {
+      "en": "Rat, dorsal view",
+      "fr": "Rat, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "rat-ventral",
+    "set": "views",
+    "species": "rat",
+    "view": "ventral",
+    "file": "icons/views/rat-ventral.svg",
+    "name": {
+      "en": "Rat, ventral view",
+      "fr": "Rat, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "rodent",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "rongeur",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "rhesus-macaque-dorsal",
+    "set": "views",
+    "species": "rhesus-macaque",
+    "view": "dorsal",
+    "file": "icons/views/rhesus-macaque-dorsal.svg",
+    "name": {
+      "en": "Rhesus macaque, dorsal view",
+      "fr": "Macaque rhésus, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "primate",
+        "macaque",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "primate",
+        "macaque",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "rhesus-macaque-ventral",
+    "set": "views",
+    "species": "rhesus-macaque",
+    "view": "ventral",
+    "file": "icons/views/rhesus-macaque-ventral.svg",
+    "name": {
+      "en": "Rhesus macaque, ventral view",
+      "fr": "Macaque rhésus, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "primate",
+        "macaque",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "primate",
+        "macaque",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "sheep-dorsal",
+    "set": "views",
+    "species": "sheep",
+    "view": "dorsal",
+    "file": "icons/views/sheep-dorsal.svg",
+    "name": {
+      "en": "Sheep, dorsal view",
+      "fr": "Mouton, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "sheep-ventral",
+    "set": "views",
+    "species": "sheep",
+    "view": "ventral",
+    "file": "icons/views/sheep-ventral.svg",
+    "name": {
+      "en": "Sheep, ventral view",
+      "fr": "Mouton, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "turkey-dorsal",
+    "set": "views",
+    "species": "turkey",
+    "view": "dorsal",
+    "file": "icons/views/turkey-dorsal.svg",
+    "name": {
+      "en": "Turkey, dorsal view",
+      "fr": "Dindon, vue dorsale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "top view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessus"
+      ]
+    }
+  },
+  {
+    "slug": "turkey-ventral",
+    "set": "views",
+    "species": "turkey",
+    "view": "ventral",
+    "file": "icons/views/turkey-ventral.svg",
+    "name": {
+      "en": "Turkey, ventral view",
+      "fr": "Dindon, vue ventrale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "bottom view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de dessous"
+      ]
+    }
+  },
+  {
+    "slug": "zebrafish-lateral",
+    "set": "views",
+    "species": "zebrafish",
+    "view": "lateral",
+    "file": "icons/views/zebrafish-lateral.svg",
+    "name": {
+      "en": "Zebrafish, lateral view",
+      "fr": "Poisson-zèbre, vue latérale"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "side view"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de côté"
+      ]
+    }
+  }
+]

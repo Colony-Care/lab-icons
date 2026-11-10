@@ -1,0 +1,4 @@
+node_modules/
+dist/
+src/react/generated/
+src/react/index.ts
