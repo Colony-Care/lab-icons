@@ -23,7 +23,7 @@ describe('built package', () => {
     expect(react.MouseIcon).toBeTruthy()
     expect(typeof react.MouseIcon.render).toBe('function')
     const root = require('../dist/index.cjs')
-    expect(root.icons).toHaveLength(60)
+    expect(root.icons).toHaveLength(105)
   })
 
   it('marks every icon as pure so bundlers can tree-shake', () => {

@@ -1,5 +1,1310 @@
 [
   {
+    "slug": "antibody",
+    "set": "lab",
+    "category": "biology",
+    "species": "antibody",
+    "file": "icons/outline/antibody.svg",
+    "styles": {
+      "outline": "icons/outline/antibody.svg",
+      "solid": "icons/solid/antibody.svg",
+      "duotone": "icons/duotone/antibody.svg",
+      "inverse": "icons/inverse/antibody.svg"
+    },
+    "name": {
+      "en": "Antibody",
+      "fr": "Anticorps"
+    },
+    "tags": {
+      "en": [
+        "antibody",
+        "organs and cells",
+        "lab"
+      ],
+      "fr": [
+        "anticorps",
+        "organes et cellules",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "arabidopsis",
+    "set": "lab",
+    "category": "organisms",
+    "species": "arabidopsis",
+    "file": "icons/outline/arabidopsis.svg",
+    "styles": {
+      "outline": "icons/outline/arabidopsis.svg",
+      "solid": "icons/solid/arabidopsis.svg",
+      "duotone": "icons/duotone/arabidopsis.svg",
+      "inverse": "icons/inverse/arabidopsis.svg"
+    },
+    "name": {
+      "en": "Arabidopsis",
+      "fr": "Arabidopsis"
+    },
+    "tags": {
+      "en": [
+        "arabidopsis",
+        "model organisms",
+        "lab"
+      ],
+      "fr": [
+        "arabidopsis",
+        "organismes modèles",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "beaker",
+    "set": "lab",
+    "category": "bench",
+    "species": "beaker",
+    "file": "icons/outline/beaker.svg",
+    "styles": {
+      "outline": "icons/outline/beaker.svg",
+      "solid": "icons/solid/beaker.svg",
+      "duotone": "icons/duotone/beaker.svg",
+      "inverse": "icons/inverse/beaker.svg"
+    },
+    "name": {
+      "en": "Beaker",
+      "fr": "Bécher"
+    },
+    "tags": {
+      "en": [
+        "beaker",
+        "bench",
+        "lab"
+      ],
+      "fr": [
+        "bécher",
+        "matériel de paillasse",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "biosafety-cabinet",
+    "set": "lab",
+    "category": "instruments",
+    "species": "biosafety-cabinet",
+    "file": "icons/outline/biosafety-cabinet.svg",
+    "styles": {
+      "outline": "icons/outline/biosafety-cabinet.svg",
+      "solid": "icons/solid/biosafety-cabinet.svg",
+      "duotone": "icons/duotone/biosafety-cabinet.svg",
+      "inverse": "icons/inverse/biosafety-cabinet.svg"
+    },
+    "name": {
+      "en": "Biosafety cabinet",
+      "fr": "Poste de sécurité microbiologique"
+    },
+    "tags": {
+      "en": [
+        "biosafety cabinet",
+        "instruments",
+        "lab"
+      ],
+      "fr": [
+        "poste de sécurité microbiologique",
+        "instruments",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "brain",
+    "set": "lab",
+    "category": "biology",
+    "species": "brain",
+    "file": "icons/outline/brain.svg",
+    "styles": {
+      "outline": "icons/outline/brain.svg",
+      "solid": "icons/solid/brain.svg",
+      "duotone": "icons/duotone/brain.svg",
+      "inverse": "icons/inverse/brain.svg"
+    },
+    "name": {
+      "en": "Brain",
+      "fr": "Cerveau"
+    },
+    "tags": {
+      "en": [
+        "brain",
+        "organs and cells",
+        "lab"
+      ],
+      "fr": [
+        "cerveau",
+        "organes et cellules",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "c-elegans",
+    "set": "lab",
+    "category": "organisms",
+    "species": "c-elegans",
+    "file": "icons/outline/c-elegans.svg",
+    "styles": {
+      "outline": "icons/outline/c-elegans.svg",
+      "solid": "icons/solid/c-elegans.svg",
+      "duotone": "icons/duotone/c-elegans.svg",
+      "inverse": "icons/inverse/c-elegans.svg"
+    },
+    "name": {
+      "en": "C. elegans",
+      "fr": "C. elegans"
+    },
+    "tags": {
+      "en": [
+        "c. elegans",
+        "model organisms",
+        "lab"
+      ],
+      "fr": [
+        "c. elegans",
+        "organismes modèles",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "cage-card",
+    "set": "lab",
+    "category": "vivarium",
+    "species": "cage-card",
+    "file": "icons/outline/cage-card.svg",
+    "styles": {
+      "outline": "icons/outline/cage-card.svg",
+      "solid": "icons/solid/cage-card.svg",
+      "duotone": "icons/duotone/cage-card.svg",
+      "inverse": "icons/inverse/cage-card.svg"
+    },
+    "name": {
+      "en": "Cage card",
+      "fr": "Carte de cage"
+    },
+    "tags": {
+      "en": [
+        "cage card",
+        "vivarium",
+        "lab"
+      ],
+      "fr": [
+        "carte de cage",
+        "animalerie",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "cell",
+    "set": "lab",
+    "category": "biology",
+    "species": "cell",
+    "file": "icons/outline/cell.svg",
+    "styles": {
+      "outline": "icons/outline/cell.svg",
+      "solid": "icons/solid/cell.svg",
+      "duotone": "icons/duotone/cell.svg",
+      "inverse": "icons/inverse/cell.svg"
+    },
+    "name": {
+      "en": "Cell",
+      "fr": "Cellule"
+    },
+    "tags": {
+      "en": [
+        "cell",
+        "organs and cells",
+        "lab"
+      ],
+      "fr": [
+        "cellule",
+        "organes et cellules",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "centrifuge",
+    "set": "lab",
+    "category": "instruments",
+    "species": "centrifuge",
+    "file": "icons/outline/centrifuge.svg",
+    "styles": {
+      "outline": "icons/outline/centrifuge.svg",
+      "solid": "icons/solid/centrifuge.svg",
+      "duotone": "icons/duotone/centrifuge.svg",
+      "inverse": "icons/inverse/centrifuge.svg"
+    },
+    "name": {
+      "en": "Centrifuge",
+      "fr": "Centrifugeuse"
+    },
+    "tags": {
+      "en": [
+        "centrifuge",
+        "instruments",
+        "lab"
+      ],
+      "fr": [
+        "centrifugeuse",
+        "instruments",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "co2-incubator",
+    "set": "lab",
+    "category": "instruments",
+    "species": "co2-incubator",
+    "file": "icons/outline/co2-incubator.svg",
+    "styles": {
+      "outline": "icons/outline/co2-incubator.svg",
+      "solid": "icons/solid/co2-incubator.svg",
+      "duotone": "icons/duotone/co2-incubator.svg",
+      "inverse": "icons/inverse/co2-incubator.svg"
+    },
+    "name": {
+      "en": "CO2 incubator",
+      "fr": "Incubateur CO₂"
+    },
+    "tags": {
+      "en": [
+        "co2 incubator",
+        "instruments",
+        "lab"
+      ],
+      "fr": [
+        "incubateur co₂",
+        "instruments",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "conical-tube",
+    "set": "lab",
+    "category": "bench",
+    "species": "conical-tube",
+    "file": "icons/outline/conical-tube.svg",
+    "styles": {
+      "outline": "icons/outline/conical-tube.svg",
+      "solid": "icons/solid/conical-tube.svg",
+      "duotone": "icons/duotone/conical-tube.svg",
+      "inverse": "icons/inverse/conical-tube.svg"
+    },
+    "name": {
+      "en": "Conical tube",
+      "fr": "Tube Falcon"
+    },
+    "tags": {
+      "en": [
+        "conical tube",
+        "bench",
+        "lab"
+      ],
+      "fr": [
+        "tube falcon",
+        "matériel de paillasse",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "culture-flask",
+    "set": "lab",
+    "category": "bench",
+    "species": "culture-flask",
+    "file": "icons/outline/culture-flask.svg",
+    "styles": {
+      "outline": "icons/outline/culture-flask.svg",
+      "solid": "icons/solid/culture-flask.svg",
+      "duotone": "icons/duotone/culture-flask.svg",
+      "inverse": "icons/inverse/culture-flask.svg"
+    },
+    "name": {
+      "en": "Culture flask",
+      "fr": "Flasque de culture"
+    },
+    "tags": {
+      "en": [
+        "culture flask",
+        "bench",
+        "lab"
+      ],
+      "fr": [
+        "flasque de culture",
+        "matériel de paillasse",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "dna",
+    "set": "lab",
+    "category": "biology",
+    "species": "dna",
+    "file": "icons/outline/dna.svg",
+    "styles": {
+      "outline": "icons/outline/dna.svg",
+      "solid": "icons/solid/dna.svg",
+      "duotone": "icons/duotone/dna.svg",
+      "inverse": "icons/inverse/dna.svg"
+    },
+    "name": {
+      "en": "DNA",
+      "fr": "ADN"
+    },
+    "tags": {
+      "en": [
+        "dna",
+        "organs and cells",
+        "lab"
+      ],
+      "fr": [
+        "adn",
+        "organes et cellules",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "drosophila",
+    "set": "lab",
+    "category": "organisms",
+    "species": "drosophila",
+    "file": "icons/outline/drosophila.svg",
+    "styles": {
+      "outline": "icons/outline/drosophila.svg",
+      "solid": "icons/solid/drosophila.svg",
+      "duotone": "icons/duotone/drosophila.svg",
+      "inverse": "icons/inverse/drosophila.svg"
+    },
+    "name": {
+      "en": "Fruit fly",
+      "fr": "Drosophile"
+    },
+    "tags": {
+      "en": [
+        "fruit fly",
+        "model organisms",
+        "lab"
+      ],
+      "fr": [
+        "drosophile",
+        "organismes modèles",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "e-coli",
+    "set": "lab",
+    "category": "organisms",
+    "species": "e-coli",
+    "file": "icons/outline/e-coli.svg",
+    "styles": {
+      "outline": "icons/outline/e-coli.svg",
+      "solid": "icons/solid/e-coli.svg",
+      "duotone": "icons/duotone/e-coli.svg",
+      "inverse": "icons/inverse/e-coli.svg"
+    },
+    "name": {
+      "en": "E. coli",
+      "fr": "Bactérie E. coli"
+    },
+    "tags": {
+      "en": [
+        "e. coli",
+        "model organisms",
+        "lab"
+      ],
+      "fr": [
+        "bactérie e. coli",
+        "organismes modèles",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "erlenmeyer",
+    "set": "lab",
+    "category": "bench",
+    "species": "erlenmeyer",
+    "file": "icons/outline/erlenmeyer.svg",
+    "styles": {
+      "outline": "icons/outline/erlenmeyer.svg",
+      "solid": "icons/solid/erlenmeyer.svg",
+      "duotone": "icons/duotone/erlenmeyer.svg",
+      "inverse": "icons/inverse/erlenmeyer.svg"
+    },
+    "name": {
+      "en": "Erlenmeyer flask",
+      "fr": "Erlenmeyer"
+    },
+    "tags": {
+      "en": [
+        "erlenmeyer flask",
+        "bench",
+        "lab"
+      ],
+      "fr": [
+        "erlenmeyer",
+        "matériel de paillasse",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "heart",
+    "set": "lab",
+    "category": "biology",
+    "species": "heart",
+    "file": "icons/outline/heart.svg",
+    "styles": {
+      "outline": "icons/outline/heart.svg",
+      "solid": "icons/solid/heart.svg",
+      "duotone": "icons/duotone/heart.svg",
+      "inverse": "icons/inverse/heart.svg"
+    },
+    "name": {
+      "en": "Heart",
+      "fr": "Cœur"
+    },
+    "tags": {
+      "en": [
+        "heart",
+        "organs and cells",
+        "lab"
+      ],
+      "fr": [
+        "cœur",
+        "organes et cellules",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "ivc-cage",
+    "set": "lab",
+    "category": "vivarium",
+    "species": "ivc-cage",
+    "file": "icons/outline/ivc-cage.svg",
+    "styles": {
+      "outline": "icons/outline/ivc-cage.svg",
+      "solid": "icons/solid/ivc-cage.svg",
+      "duotone": "icons/duotone/ivc-cage.svg",
+      "inverse": "icons/inverse/ivc-cage.svg"
+    },
+    "name": {
+      "en": "IVC cage",
+      "fr": "Cage ventilée (IVC)"
+    },
+    "tags": {
+      "en": [
+        "ivc cage",
+        "vivarium",
+        "lab"
+      ],
+      "fr": [
+        "cage ventilée (ivc)",
+        "animalerie",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "kidney",
+    "set": "lab",
+    "category": "biology",
+    "species": "kidney",
+    "file": "icons/outline/kidney.svg",
+    "styles": {
+      "outline": "icons/outline/kidney.svg",
+      "solid": "icons/solid/kidney.svg",
+      "duotone": "icons/duotone/kidney.svg",
+      "inverse": "icons/inverse/kidney.svg"
+    },
+    "name": {
+      "en": "Kidney",
+      "fr": "Rein"
+    },
+    "tags": {
+      "en": [
+        "kidney",
+        "organs and cells",
+        "lab"
+      ],
+      "fr": [
+        "rein",
+        "organes et cellules",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "liver",
+    "set": "lab",
+    "category": "biology",
+    "species": "liver",
+    "file": "icons/outline/liver.svg",
+    "styles": {
+      "outline": "icons/outline/liver.svg",
+      "solid": "icons/solid/liver.svg",
+      "duotone": "icons/duotone/liver.svg",
+      "inverse": "icons/inverse/liver.svg"
+    },
+    "name": {
+      "en": "Liver",
+      "fr": "Foie"
+    },
+    "tags": {
+      "en": [
+        "liver",
+        "organs and cells",
+        "lab"
+      ],
+      "fr": [
+        "foie",
+        "organes et cellules",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "lungs",
+    "set": "lab",
+    "category": "biology",
+    "species": "lungs",
+    "file": "icons/outline/lungs.svg",
+    "styles": {
+      "outline": "icons/outline/lungs.svg",
+      "solid": "icons/solid/lungs.svg",
+      "duotone": "icons/duotone/lungs.svg",
+      "inverse": "icons/inverse/lungs.svg"
+    },
+    "name": {
+      "en": "Lungs",
+      "fr": "Poumons"
+    },
+    "tags": {
+      "en": [
+        "lungs",
+        "organs and cells",
+        "lab"
+      ],
+      "fr": [
+        "poumons",
+        "organes et cellules",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "marmoset",
+    "set": "lab",
+    "category": "organisms",
+    "species": "marmoset",
+    "file": "icons/outline/marmoset.svg",
+    "styles": {
+      "outline": "icons/outline/marmoset.svg",
+      "solid": "icons/solid/marmoset.svg",
+      "duotone": "icons/duotone/marmoset.svg",
+      "inverse": "icons/inverse/marmoset.svg"
+    },
+    "name": {
+      "en": "Marmoset",
+      "fr": "Ouistiti"
+    },
+    "tags": {
+      "en": [
+        "marmoset",
+        "model organisms",
+        "lab"
+      ],
+      "fr": [
+        "ouistiti",
+        "organismes modèles",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "medaka",
+    "set": "lab",
+    "category": "organisms",
+    "species": "medaka",
+    "file": "icons/outline/medaka.svg",
+    "styles": {
+      "outline": "icons/outline/medaka.svg",
+      "solid": "icons/solid/medaka.svg",
+      "duotone": "icons/duotone/medaka.svg",
+      "inverse": "icons/inverse/medaka.svg"
+    },
+    "name": {
+      "en": "Medaka",
+      "fr": "Médaka"
+    },
+    "tags": {
+      "en": [
+        "medaka",
+        "model organisms",
+        "lab"
+      ],
+      "fr": [
+        "médaka",
+        "organismes modèles",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "micropipette",
+    "set": "lab",
+    "category": "bench",
+    "species": "micropipette",
+    "file": "icons/outline/micropipette.svg",
+    "styles": {
+      "outline": "icons/outline/micropipette.svg",
+      "solid": "icons/solid/micropipette.svg",
+      "duotone": "icons/duotone/micropipette.svg",
+      "inverse": "icons/inverse/micropipette.svg"
+    },
+    "name": {
+      "en": "Micropipette",
+      "fr": "Micropipette"
+    },
+    "tags": {
+      "en": [
+        "micropipette",
+        "bench",
+        "lab"
+      ],
+      "fr": [
+        "micropipette",
+        "matériel de paillasse",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "microscope",
+    "set": "lab",
+    "category": "instruments",
+    "species": "microscope",
+    "file": "icons/outline/microscope.svg",
+    "styles": {
+      "outline": "icons/outline/microscope.svg",
+      "solid": "icons/solid/microscope.svg",
+      "duotone": "icons/duotone/microscope.svg",
+      "inverse": "icons/inverse/microscope.svg"
+    },
+    "name": {
+      "en": "Microscope",
+      "fr": "Microscope"
+    },
+    "tags": {
+      "en": [
+        "microscope",
+        "instruments",
+        "lab"
+      ],
+      "fr": [
+        "microscope",
+        "instruments",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "microtube",
+    "set": "lab",
+    "category": "bench",
+    "species": "microtube",
+    "file": "icons/outline/microtube.svg",
+    "styles": {
+      "outline": "icons/outline/microtube.svg",
+      "solid": "icons/solid/microtube.svg",
+      "duotone": "icons/duotone/microtube.svg",
+      "inverse": "icons/inverse/microtube.svg"
+    },
+    "name": {
+      "en": "Microtube",
+      "fr": "Tube Eppendorf"
+    },
+    "tags": {
+      "en": [
+        "microtube",
+        "bench",
+        "lab"
+      ],
+      "fr": [
+        "tube eppendorf",
+        "matériel de paillasse",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "nest-house",
+    "set": "lab",
+    "category": "vivarium",
+    "species": "nest-house",
+    "file": "icons/outline/nest-house.svg",
+    "styles": {
+      "outline": "icons/outline/nest-house.svg",
+      "solid": "icons/solid/nest-house.svg",
+      "duotone": "icons/duotone/nest-house.svg",
+      "inverse": "icons/inverse/nest-house.svg"
+    },
+    "name": {
+      "en": "Nest house",
+      "fr": "Maisonnette"
+    },
+    "tags": {
+      "en": [
+        "nest house",
+        "vivarium",
+        "lab"
+      ],
+      "fr": [
+        "maisonnette",
+        "animalerie",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "neuron",
+    "set": "lab",
+    "category": "biology",
+    "species": "neuron",
+    "file": "icons/outline/neuron.svg",
+    "styles": {
+      "outline": "icons/outline/neuron.svg",
+      "solid": "icons/solid/neuron.svg",
+      "duotone": "icons/duotone/neuron.svg",
+      "inverse": "icons/inverse/neuron.svg"
+    },
+    "name": {
+      "en": "Neuron",
+      "fr": "Neurone"
+    },
+    "tags": {
+      "en": [
+        "neuron",
+        "organs and cells",
+        "lab"
+      ],
+      "fr": [
+        "neurone",
+        "organes et cellules",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "petri-dish",
+    "set": "lab",
+    "category": "bench",
+    "species": "petri-dish",
+    "file": "icons/outline/petri-dish.svg",
+    "styles": {
+      "outline": "icons/outline/petri-dish.svg",
+      "solid": "icons/solid/petri-dish.svg",
+      "duotone": "icons/duotone/petri-dish.svg",
+      "inverse": "icons/inverse/petri-dish.svg"
+    },
+    "name": {
+      "en": "Petri dish",
+      "fr": "Boîte de Petri"
+    },
+    "tags": {
+      "en": [
+        "petri dish",
+        "bench",
+        "lab"
+      ],
+      "fr": [
+        "boîte de petri",
+        "matériel de paillasse",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "rat-cage",
+    "set": "lab",
+    "category": "vivarium",
+    "species": "rat-cage",
+    "file": "icons/outline/rat-cage.svg",
+    "styles": {
+      "outline": "icons/outline/rat-cage.svg",
+      "solid": "icons/solid/rat-cage.svg",
+      "duotone": "icons/duotone/rat-cage.svg",
+      "inverse": "icons/inverse/rat-cage.svg"
+    },
+    "name": {
+      "en": "Rat cage",
+      "fr": "Cage rat"
+    },
+    "tags": {
+      "en": [
+        "rat cage",
+        "vivarium",
+        "lab"
+      ],
+      "fr": [
+        "cage rat",
+        "animalerie",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "rfid-tag",
+    "set": "lab",
+    "category": "vivarium",
+    "species": "rfid-tag",
+    "file": "icons/outline/rfid-tag.svg",
+    "styles": {
+      "outline": "icons/outline/rfid-tag.svg",
+      "solid": "icons/solid/rfid-tag.svg",
+      "duotone": "icons/duotone/rfid-tag.svg",
+      "inverse": "icons/inverse/rfid-tag.svg"
+    },
+    "name": {
+      "en": "RFID chip",
+      "fr": "Puce RFID"
+    },
+    "tags": {
+      "en": [
+        "rfid chip",
+        "vivarium",
+        "lab"
+      ],
+      "fr": [
+        "puce rfid",
+        "animalerie",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "running-wheel",
+    "set": "lab",
+    "category": "vivarium",
+    "species": "running-wheel",
+    "file": "icons/outline/running-wheel.svg",
+    "styles": {
+      "outline": "icons/outline/running-wheel.svg",
+      "solid": "icons/solid/running-wheel.svg",
+      "duotone": "icons/duotone/running-wheel.svg",
+      "inverse": "icons/inverse/running-wheel.svg"
+    },
+    "name": {
+      "en": "Running wheel",
+      "fr": "Roue d’exercice"
+    },
+    "tags": {
+      "en": [
+        "running wheel",
+        "vivarium",
+        "lab"
+      ],
+      "fr": [
+        "roue d’exercice",
+        "animalerie",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "syringe",
+    "set": "lab",
+    "category": "bench",
+    "species": "syringe",
+    "file": "icons/outline/syringe.svg",
+    "styles": {
+      "outline": "icons/outline/syringe.svg",
+      "solid": "icons/solid/syringe.svg",
+      "duotone": "icons/duotone/syringe.svg",
+      "inverse": "icons/inverse/syringe.svg"
+    },
+    "name": {
+      "en": "Syringe",
+      "fr": "Seringue"
+    },
+    "tags": {
+      "en": [
+        "syringe",
+        "bench",
+        "lab"
+      ],
+      "fr": [
+        "seringue",
+        "matériel de paillasse",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "test-tube",
+    "set": "lab",
+    "category": "bench",
+    "species": "test-tube",
+    "file": "icons/outline/test-tube.svg",
+    "styles": {
+      "outline": "icons/outline/test-tube.svg",
+      "solid": "icons/solid/test-tube.svg",
+      "duotone": "icons/duotone/test-tube.svg",
+      "inverse": "icons/inverse/test-tube.svg"
+    },
+    "name": {
+      "en": "Test tube",
+      "fr": "Tube à essai"
+    },
+    "tags": {
+      "en": [
+        "test tube",
+        "bench",
+        "lab"
+      ],
+      "fr": [
+        "tube à essai",
+        "matériel de paillasse",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "thermocycler",
+    "set": "lab",
+    "category": "instruments",
+    "species": "thermocycler",
+    "file": "icons/outline/thermocycler.svg",
+    "styles": {
+      "outline": "icons/outline/thermocycler.svg",
+      "solid": "icons/solid/thermocycler.svg",
+      "duotone": "icons/duotone/thermocycler.svg",
+      "inverse": "icons/inverse/thermocycler.svg"
+    },
+    "name": {
+      "en": "PCR thermocycler",
+      "fr": "Thermocycleur PCR"
+    },
+    "tags": {
+      "en": [
+        "pcr thermocycler",
+        "instruments",
+        "lab"
+      ],
+      "fr": [
+        "thermocycleur pcr",
+        "instruments",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "ult-freezer",
+    "set": "lab",
+    "category": "instruments",
+    "species": "ult-freezer",
+    "file": "icons/outline/ult-freezer.svg",
+    "styles": {
+      "outline": "icons/outline/ult-freezer.svg",
+      "solid": "icons/solid/ult-freezer.svg",
+      "duotone": "icons/duotone/ult-freezer.svg",
+      "inverse": "icons/inverse/ult-freezer.svg"
+    },
+    "name": {
+      "en": "−80 °C freezer",
+      "fr": "Congélateur −80 °C"
+    },
+    "tags": {
+      "en": [
+        "−80 °c freezer",
+        "instruments",
+        "lab"
+      ],
+      "fr": [
+        "congélateur −80 °c",
+        "instruments",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "ventilated-rack",
+    "set": "lab",
+    "category": "vivarium",
+    "species": "ventilated-rack",
+    "file": "icons/outline/ventilated-rack.svg",
+    "styles": {
+      "outline": "icons/outline/ventilated-rack.svg",
+      "solid": "icons/solid/ventilated-rack.svg",
+      "duotone": "icons/duotone/ventilated-rack.svg",
+      "inverse": "icons/inverse/ventilated-rack.svg"
+    },
+    "name": {
+      "en": "Ventilated rack",
+      "fr": "Rack ventilé"
+    },
+    "tags": {
+      "en": [
+        "ventilated rack",
+        "vivarium",
+        "lab"
+      ],
+      "fr": [
+        "rack ventilé",
+        "animalerie",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "virus",
+    "set": "lab",
+    "category": "biology",
+    "species": "virus",
+    "file": "icons/outline/virus.svg",
+    "styles": {
+      "outline": "icons/outline/virus.svg",
+      "solid": "icons/solid/virus.svg",
+      "duotone": "icons/duotone/virus.svg",
+      "inverse": "icons/inverse/virus.svg"
+    },
+    "name": {
+      "en": "Virus",
+      "fr": "Virus"
+    },
+    "tags": {
+      "en": [
+        "virus",
+        "organs and cells",
+        "lab"
+      ],
+      "fr": [
+        "virus",
+        "organes et cellules",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "vortex",
+    "set": "lab",
+    "category": "instruments",
+    "species": "vortex",
+    "file": "icons/outline/vortex.svg",
+    "styles": {
+      "outline": "icons/outline/vortex.svg",
+      "solid": "icons/solid/vortex.svg",
+      "duotone": "icons/duotone/vortex.svg",
+      "inverse": "icons/inverse/vortex.svg"
+    },
+    "name": {
+      "en": "Vortex mixer",
+      "fr": "Vortex"
+    },
+    "tags": {
+      "en": [
+        "vortex mixer",
+        "instruments",
+        "lab"
+      ],
+      "fr": [
+        "vortex",
+        "instruments",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "water-bottle",
+    "set": "lab",
+    "category": "vivarium",
+    "species": "water-bottle",
+    "file": "icons/outline/water-bottle.svg",
+    "styles": {
+      "outline": "icons/outline/water-bottle.svg",
+      "solid": "icons/solid/water-bottle.svg",
+      "duotone": "icons/duotone/water-bottle.svg",
+      "inverse": "icons/inverse/water-bottle.svg"
+    },
+    "name": {
+      "en": "Water bottle",
+      "fr": "Biberon"
+    },
+    "tags": {
+      "en": [
+        "water bottle",
+        "vivarium",
+        "lab"
+      ],
+      "fr": [
+        "biberon",
+        "animalerie",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "well-plate",
+    "set": "lab",
+    "category": "bench",
+    "species": "well-plate",
+    "file": "icons/outline/well-plate.svg",
+    "styles": {
+      "outline": "icons/outline/well-plate.svg",
+      "solid": "icons/solid/well-plate.svg",
+      "duotone": "icons/duotone/well-plate.svg",
+      "inverse": "icons/inverse/well-plate.svg"
+    },
+    "name": {
+      "en": "96-well plate",
+      "fr": "Plaque 96 puits"
+    },
+    "tags": {
+      "en": [
+        "96-well plate",
+        "bench",
+        "lab"
+      ],
+      "fr": [
+        "plaque 96 puits",
+        "matériel de paillasse",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "xenopus",
+    "set": "lab",
+    "category": "organisms",
+    "species": "xenopus",
+    "file": "icons/outline/xenopus.svg",
+    "styles": {
+      "outline": "icons/outline/xenopus.svg",
+      "solid": "icons/solid/xenopus.svg",
+      "duotone": "icons/duotone/xenopus.svg",
+      "inverse": "icons/inverse/xenopus.svg"
+    },
+    "name": {
+      "en": "Xenopus",
+      "fr": "Xénope"
+    },
+    "tags": {
+      "en": [
+        "xenopus",
+        "model organisms",
+        "lab"
+      ],
+      "fr": [
+        "xénope",
+        "organismes modèles",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "yeast",
+    "set": "lab",
+    "category": "organisms",
+    "species": "yeast",
+    "file": "icons/outline/yeast.svg",
+    "styles": {
+      "outline": "icons/outline/yeast.svg",
+      "solid": "icons/solid/yeast.svg",
+      "duotone": "icons/duotone/yeast.svg",
+      "inverse": "icons/inverse/yeast.svg"
+    },
+    "name": {
+      "en": "Yeast",
+      "fr": "Levure"
+    },
+    "tags": {
+      "en": [
+        "yeast",
+        "model organisms",
+        "lab"
+      ],
+      "fr": [
+        "levure",
+        "organismes modèles",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "zebra-finch",
+    "set": "lab",
+    "category": "organisms",
+    "species": "zebra-finch",
+    "file": "icons/outline/zebra-finch.svg",
+    "styles": {
+      "outline": "icons/outline/zebra-finch.svg",
+      "solid": "icons/solid/zebra-finch.svg",
+      "duotone": "icons/duotone/zebra-finch.svg",
+      "inverse": "icons/inverse/zebra-finch.svg"
+    },
+    "name": {
+      "en": "Zebra finch",
+      "fr": "Diamant mandarin"
+    },
+    "tags": {
+      "en": [
+        "zebra finch",
+        "model organisms",
+        "lab"
+      ],
+      "fr": [
+        "diamant mandarin",
+        "organismes modèles",
+        "laboratoire"
+      ]
+    }
+  },
+  {
+    "slug": "zebrafish-rack",
+    "set": "lab",
+    "category": "vivarium",
+    "species": "zebrafish-rack",
+    "file": "icons/outline/zebrafish-rack.svg",
+    "styles": {
+      "outline": "icons/outline/zebrafish-rack.svg",
+      "solid": "icons/solid/zebrafish-rack.svg",
+      "duotone": "icons/duotone/zebrafish-rack.svg",
+      "inverse": "icons/inverse/zebrafish-rack.svg"
+    },
+    "name": {
+      "en": "Zebrafish rack",
+      "fr": "Rack poisson-zèbre"
+    },
+    "tags": {
+      "en": [
+        "zebrafish rack",
+        "vivarium",
+        "lab"
+      ],
+      "fr": [
+        "rack poisson-zèbre",
+        "animalerie",
+        "laboratoire"
+      ]
+    }
+  },
+  {
     "slug": "ant",
     "set": "species",
     "species": "ant",
@@ -15,6 +1320,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/ant.svg"
     }
   },
   {
@@ -33,6 +1341,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/cat.svg"
     }
   },
   {
@@ -53,6 +1364,9 @@
         "animal de laboratoire",
         "vache"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/cattle.svg"
     }
   },
   {
@@ -71,6 +1385,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/chicken.svg"
     }
   },
   {
@@ -89,6 +1406,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/dog.svg"
     }
   },
   {
@@ -107,6 +1427,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/ferret.svg"
     }
   },
   {
@@ -125,6 +1448,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/frog.svg"
     }
   },
   {
@@ -143,6 +1469,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/goat.svg"
     }
   },
   {
@@ -164,6 +1493,9 @@
         "rongeur",
         "cochon d'Inde"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/guinea-pig.svg"
     }
   },
   {
@@ -184,6 +1516,9 @@
         "animal de laboratoire",
         "rongeur"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/hamster.svg"
     }
   },
   {
@@ -202,6 +1537,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/horse.svg"
     }
   },
   {
@@ -222,6 +1560,9 @@
         "animal de laboratoire",
         "rongeur"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/mouse.svg"
     }
   },
   {
@@ -241,6 +1582,9 @@
         "animal de laboratoire",
         "cochon"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/pig.svg"
     }
   },
   {
@@ -267,6 +1611,9 @@
         "singe",
         "macaque"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/primate.svg"
     }
   },
   {
@@ -285,6 +1632,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/rabbit.svg"
     }
   },
   {
@@ -305,6 +1655,9 @@
         "animal de laboratoire",
         "rongeur"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/rat.svg"
     }
   },
   {
@@ -323,6 +1676,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/sheep.svg"
     }
   },
   {
@@ -341,6 +1697,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/turkey.svg"
     }
   },
   {
@@ -359,6 +1718,9 @@
       "fr": [
         "animal de laboratoire"
       ]
+    },
+    "styles": {
+      "outline": "icons/species/zebrafish.svg"
     }
   },
   {
@@ -382,6 +1744,9 @@
         "primate",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/capuchin-dorsal.svg"
     }
   },
   {
@@ -405,6 +1770,9 @@
         "primate",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/capuchin-ventral.svg"
     }
   },
   {
@@ -426,6 +1794,9 @@
         "animal de laboratoire",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/cat-dorsal.svg"
     }
   },
   {
@@ -447,6 +1818,9 @@
         "animal de laboratoire",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/cat-ventral.svg"
     }
   },
   {
@@ -470,6 +1844,9 @@
         "vache",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/cattle-dorsal.svg"
     }
   },
   {
@@ -491,6 +1868,9 @@
         "animal de laboratoire",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/chicken-dorsal.svg"
     }
   },
   {
@@ -512,6 +1892,9 @@
         "animal de laboratoire",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/chicken-ventral.svg"
     }
   },
   {
@@ -535,6 +1918,9 @@
         "rongeur",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/cotton-rat-dorsal.svg"
     }
   },
   {
@@ -558,6 +1944,9 @@
         "rongeur",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/cotton-rat-ventral.svg"
     }
   },
   {
@@ -583,6 +1972,9 @@
         "macaque",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/cynomolgus-macaque-dorsal.svg"
     }
   },
   {
@@ -608,6 +2000,9 @@
         "macaque",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/cynomolgus-macaque-ventral.svg"
     }
   },
   {
@@ -629,6 +2024,9 @@
         "animal de laboratoire",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/dog-dorsal.svg"
     }
   },
   {
@@ -650,6 +2048,9 @@
         "animal de laboratoire",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/dog-ventral.svg"
     }
   },
   {
@@ -671,6 +2072,9 @@
         "animal de laboratoire",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/ferret-dorsal.svg"
     }
   },
   {
@@ -692,6 +2096,9 @@
         "animal de laboratoire",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/ferret-ventral.svg"
     }
   },
   {
@@ -713,6 +2120,9 @@
         "animal de laboratoire",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/frog-dorsal.svg"
     }
   },
   {
@@ -734,6 +2144,9 @@
         "animal de laboratoire",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/frog-ventral.svg"
     }
   },
   {
@@ -755,6 +2168,9 @@
         "animal de laboratoire",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/goat-dorsal.svg"
     }
   },
   {
@@ -776,6 +2192,9 @@
         "animal de laboratoire",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/goat-ventral.svg"
     }
   },
   {
@@ -800,6 +2219,9 @@
         "cochon d'Inde",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/guinea-pig-dorsal.svg"
     }
   },
   {
@@ -824,6 +2246,9 @@
         "cochon d'Inde",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/guinea-pig-ventral.svg"
     }
   },
   {
@@ -847,6 +2272,9 @@
         "rongeur",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/hamster-dorsal.svg"
     }
   },
   {
@@ -870,6 +2298,9 @@
         "rongeur",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/hamster-ventral.svg"
     }
   },
   {
@@ -891,6 +2322,9 @@
         "animal de laboratoire",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/horse-dorsal.svg"
     }
   },
   {
@@ -913,6 +2347,9 @@
         "cochon",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/minipig-dorsal.svg"
     }
   },
   {
@@ -935,6 +2372,9 @@
         "cochon",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/minipig-ventral.svg"
     }
   },
   {
@@ -958,6 +2398,9 @@
         "rongeur",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/mouse-dorsal.svg"
     }
   },
   {
@@ -981,6 +2424,9 @@
         "rongeur",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/mouse-ventral.svg"
     }
   },
   {
@@ -1003,6 +2449,9 @@
         "cochon",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/pig-dorsal.svg"
     }
   },
   {
@@ -1025,6 +2474,9 @@
         "cochon",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/pig-ventral.svg"
     }
   },
   {
@@ -1046,6 +2498,9 @@
         "animal de laboratoire",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/rabbit-dorsal.svg"
     }
   },
   {
@@ -1067,6 +2522,9 @@
         "animal de laboratoire",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/rabbit-ventral.svg"
     }
   },
   {
@@ -1090,6 +2548,9 @@
         "rongeur",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/rat-dorsal.svg"
     }
   },
   {
@@ -1113,6 +2574,9 @@
         "rongeur",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/rat-ventral.svg"
     }
   },
   {
@@ -1138,6 +2602,9 @@
         "macaque",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/rhesus-macaque-dorsal.svg"
     }
   },
   {
@@ -1163,6 +2630,9 @@
         "macaque",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/rhesus-macaque-ventral.svg"
     }
   },
   {
@@ -1184,6 +2654,9 @@
         "animal de laboratoire",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/sheep-dorsal.svg"
     }
   },
   {
@@ -1205,6 +2678,9 @@
         "animal de laboratoire",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/sheep-ventral.svg"
     }
   },
   {
@@ -1226,6 +2702,9 @@
         "animal de laboratoire",
         "vue de dessus"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/turkey-dorsal.svg"
     }
   },
   {
@@ -1247,6 +2726,9 @@
         "animal de laboratoire",
         "vue de dessous"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/turkey-ventral.svg"
     }
   },
   {
@@ -1268,6 +2750,9 @@
         "animal de laboratoire",
         "vue de côté"
       ]
+    },
+    "styles": {
+      "outline": "icons/views/zebrafish-lateral.svg"
     }
   }
 ]

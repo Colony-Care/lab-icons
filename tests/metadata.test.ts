@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { readFileSync, readdirSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import type { IconEntry } from '../src/types'
 
@@ -24,7 +24,7 @@ function svgFiles(): string[] {
 describe('metadata', () => {
   it('every icon file has exactly one metadata entry and vice versa', () => {
     const files = svgFiles().sort()
-    const declared = entries.map((e) => e.file).sort()
+    const declared = entries.flatMap((e) => Object.values(e.styles)).sort()
     expect(new Set(declared).size).toBe(declared.length)
     expect(declared).toEqual(files)
   })
@@ -32,6 +32,37 @@ describe('metadata', () => {
   it('counts', () => {
     expect(entries.filter((e) => e.set === 'species')).toHaveLength(19)
     expect(entries.filter((e) => e.set === 'views')).toHaveLength(41)
+    expect(entries.filter((e) => e.set === 'lab')).toHaveLength(45)
+    expect(entries).toHaveLength(105)
+  })
+
+  it('lab entries carry a category and all four styles pointing to existing files', () => {
+    const cats = ['organisms', 'vivarium', 'bench', 'instruments', 'biology']
+    for (const e of entries.filter((x) => x.set === 'lab')) {
+      expect(cats).toContain(e.category)
+      expect(Object.keys(e.styles).sort()).toEqual(['duotone', 'inverse', 'outline', 'solid'])
+      expect(e.file).toBe(e.styles.outline)
+      for (const style of ['outline', 'solid', 'duotone', 'inverse'] as const) {
+        expect(e.styles[style]).toBe(`icons/${style}/${e.slug}.svg`)
+      }
+    }
+  })
+
+  it('every styles path exists and existing entries only gained styles.outline', () => {
+    for (const e of entries) {
+      expect(e.styles.outline).toBeDefined()
+      for (const p of Object.values(e.styles)) expect(existsSync(join(root, p))).toBe(true)
+      if (e.set !== 'lab') expect(e.styles).toEqual({ outline: e.file })
+    }
+    const mouse = entries.find((e) => e.slug === 'mouse')
+    expect(mouse?.file).toBe('icons/species/mouse.svg')
+    expect(mouse?.category).toBeUndefined()
+  })
+
+  it('is sorted by set, then slug', () => {
+    const order = ['lab', 'species', 'views']
+    const keys = entries.map((e) => `${order.indexOf(e.set)}:${e.slug}`)
+    expect(keys).toEqual([...keys].sort())
   })
 
   it('slugs are unique kebab-case', () => {
@@ -55,6 +86,7 @@ describe('metadata', () => {
     for (const e of entries) {
       expect(e.name.en.length).toBeGreaterThan(0)
       expect(e.name.fr.length).toBeGreaterThan(0)
+      if (e.set === 'lab') continue
       expect(e.tags.en).toContain('lab animal')
       expect(e.tags.fr).toContain('animal de laboratoire')
     }

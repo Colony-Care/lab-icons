@@ -5,14 +5,22 @@ import { describe, expect, it } from 'vitest'
 import { optimizeSvg } from '../scripts/optimize.mjs'
 
 const root = join(__dirname, '..')
+const STROKE_ROOT =
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">'
+const FILL_ROOT = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="currentColor">'
+// maxBytes are set from the measured post-optimise sizes (see the task report)
 const sets = [
-  { name: 'species', maxBytes: 8 * 1024 },
-  { name: 'views', maxBytes: 450 * 1024 },
+  { name: 'species', maxBytes: 8 * 1024, lab: false },
+  { name: 'views', maxBytes: 450 * 1024, lab: false },
+  { name: 'outline', maxBytes: 4 * 1024, lab: true, rootTag: STROKE_ROOT },
+  { name: 'solid', maxBytes: 16 * 1024, lab: true, rootTag: FILL_ROOT },
+  { name: 'duotone', maxBytes: 4 * 1024, lab: true, rootTag: STROKE_ROOT },
+  { name: 'inverse', maxBytes: 16 * 1024, lab: true, rootTag: FILL_ROOT },
 ]
 
 const ALLOWED_PAINT = new Set(['currentColor', 'none'])
 
-describe.each(sets)('$name icons', ({ name, maxBytes }) => {
+describe.each(sets)('$name icons', ({ name, maxBytes, lab, rootTag: expectedRoot }) => {
   const dir = join(root, 'icons', name)
   const files = readdirSync(dir).filter((f) => f.endsWith('.svg'))
 
@@ -33,7 +41,10 @@ describe.each(sets)('$name icons', ({ name, maxBytes }) => {
     expect(svg).not.toMatch(/<style|<script|\sstyle=|href/i)
     expect(rootTag).not.toMatch(/\s(width|height)=/)
     expect(rootTag).toMatch(/\sviewBox="/)
-    expect(rootTag).toContain('fill="currentColor"')
+    if (expectedRoot) expect(rootTag).toBe(expectedRoot)
+    else expect(rootTag).toContain('fill="currentColor"')
+    expect(svg).not.toMatch(/<mask|\sid=/i)
+    if (lab) expect(rootTag).toContain('viewBox="0 0 64 64"')
     if (name === 'species') expect(rootTag).toContain('viewBox="0 0 64 64"')
 
     for (const m of svg.matchAll(/\s(?:fill|stroke)="([^"]*)"/g)) {
@@ -53,7 +64,7 @@ describe('optimize', () => {
     'leaves %s unchanged',
     (rel) => {
       const svg = readFileSync(join(root, rel), 'utf8')
-      expect(optimizeSvg(svg)).toBe(svg)
+      expect(optimizeSvg(svg, rel.split('/')[1])).toBe(svg)
     },
   )
 
