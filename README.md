@@ -54,7 +54,7 @@ The React components cover the 19 species icons and the 45 lab icons. The 41 ana
 
 ### Styles
 
-All 64 icons, the 19 species and the 45 lab icons, come in four styles, each in its own folder (for example `icons/solid/mouse.svg`). The anatomical views come in one style:
+All 64 icons, the 19 species and the 45 lab icons, come in four styles, each in its own folder (for example `icons/solid/mouse.svg`):
 
 | Style | Folder |
 | --- | --- |
@@ -71,7 +71,7 @@ import { MicroscopeIcon } from '@colony-care/lab-icons/react'
 <MicroscopeIcon variant="solid" />
 ```
 
-The original species files stay in `icons/species/`, identical to `icons/outline/`, so existing links keep working.
+The anatomical views come in one style. The original species files stay in `icons/species/`, identical to `icons/outline/`, so existing links keep working.
 
 ### Raw SVG
 
@@ -267,7 +267,7 @@ import { MouseIcon } from '@colony-care/lab-icons/react'
 <MouseIcon size={32} title="Souris de laboratoire" />
 ```
 
-Les composants React couvrent les 19 icônes d’espèces et les 45 icônes de laboratoire. Les 41 vues anatomiques sont fournies uniquement en fichiers SVG. Le nom d’un composant est le slug en PascalCase suivi de `Icon` : par exemple, `co2-incubator` devient `Co2IncubatorIcon` et `e-coli` devient `EColiIcon`.
+Les composants React couvrent les 19 icônes d’espèces et les 45 icônes de laboratoire. Les 41 vues anatomiques sont fournies uniquement en fichiers SVG. Le nom d’un composant est le slug en PascalCase suivi de `Icon` : par exemple, `co2-incubator` devient `Co2IncubatorIcon` et `e-coli` devient `EColiIcon`.
 
 **Styles.** Les 64 icônes, soit les 19 espèces et les 45 icônes de laboratoire, existent en quatre styles, chacun dans son propre dossier (par exemple `icons/solid/mouse.svg`) : `icons/outline/` (contour), `icons/solid/` (plein), `icons/duotone/` (bicolore) et `icons/inverse/` (inversé). En React, choisissez-en un avec la propriété `variant` (contour par défaut) :
 

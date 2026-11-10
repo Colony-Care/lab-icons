@@ -47,7 +47,7 @@ describe('react components', () => {
     for (const n of allNames) {
       const C = (react as any)[n]
       const out = variants.map((v) => renderToStaticMarkup(<C variant={v} />))
-      expect(new Set(out).size, n).toBeGreaterThanOrEqual(3)
+      expect(new Set(out).size, n).toBe(4)
     }
   })
 
