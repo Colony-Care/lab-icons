@@ -5,7 +5,11 @@
     "moduleResolution": "Bundler",
     "strict": true,
     "skipLibCheck": true,
-    "noEmit": true
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "resolveJsonModule": true
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

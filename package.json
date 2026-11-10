@@ -6,9 +6,16 @@
   "private": false,
   "scripts": {
     "test": "vitest run",
-    "optimize": "node scripts/optimize.mjs"
+    "optimize": "node scripts/optimize.mjs",
+    "generate": "node scripts/generate-react.mjs",
+    "pretest": "npm run generate",
+    "prebuild": "npm run generate"
   },
   "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "svgo": "^4.1.0",
     "typescript": "^5.6.0",
     "vitest": "^2.1.0"
