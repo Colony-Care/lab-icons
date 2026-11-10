@@ -2,14 +2,76 @@
   "name": "@colony-care/lab-icons",
   "version": "0.1.0",
   "description": "Open-source icons of laboratory animals: species icons and dorsal, ventral and lateral views.",
+  "license": "CC-BY-4.0 AND MIT",
+  "author": "Colony Care <contact@colony.care>",
+  "homepage": "https://colony.care/en/icons",
+  "repository": "github:Colony-Care/lab-icons",
+  "keywords": [
+    "icons",
+    "svg",
+    "lab animals",
+    "laboratory",
+    "mouse",
+    "rat",
+    "react"
+  ],
   "type": "module",
   "private": false,
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./react": {
+      "import": {
+        "types": "./dist/react/index.d.ts",
+        "default": "./dist/react/index.js"
+      },
+      "require": {
+        "types": "./dist/react/index.d.cts",
+        "default": "./dist/react/index.cjs"
+      }
+    },
+    "./icons/*": "./icons/*",
+    "./icons.json": "./metadata/icons.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "icons",
+    "metadata",
+    "LICENSE",
+    "LICENSE-CODE"
+  ],
   "scripts": {
     "test": "vitest run",
     "optimize": "node scripts/optimize.mjs",
     "generate": "node scripts/generate-react.mjs",
     "pretest": "npm run generate",
-    "prebuild": "npm run generate"
+    "prebuild": "npm run generate",
+    "build": "tsup",
+    "preview": "node scripts/build-preview.mjs"
+  },
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@types/react": "^19.3.0",
@@ -17,6 +79,7 @@
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "svgo": "^4.1.0",
+    "tsup": "^9.0.0",
     "typescript": "^5.6.0",
     "vitest": "^2.1.0"
   }
