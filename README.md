@@ -179,7 +179,7 @@ Dans un article scientifique, placez-la dans la légende de la figure ou dans le
 
 ### Liste des icônes
 
-La liste complète des 60 icônes, avec leurs noms en français et en anglais, figure dans la section « Icon list » plus haut.
+La liste complète des 60 icônes, avec leurs noms en français et en anglais, figure dans la section [« Icon list »](#icon-list) plus haut.
 
 ### Licence
 
