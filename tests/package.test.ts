@@ -73,6 +73,9 @@ describe('built package', () => {
     for (const p of ['LICENSE', 'LICENSE-CODE', 'README.md', 'icons/species/mouse.svg', 'metadata/icons.json']) {
       expect(files).toContain(p)
     }
+    for (const style of ['outline', 'solid', 'duotone', 'inverse']) {
+      expect(files.some((f) => f.startsWith(`icons/${style}/`))).toBe(true)
+    }
     const bad = files.filter((p) => /^(tests|scripts|src)\/|^\.[^/]+\//.test(p))
     expect(bad).toEqual([])
   })
