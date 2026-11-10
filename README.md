@@ -150,7 +150,7 @@ Colony Care is lab animal colony management software for research facilities, bu
 **npm et React.** Installez le paquet, puis importez l’icône voulue :
 
 ```tsx
-import { MouseIcon } from ’@colony-care/lab-icons/react’
+import { MouseIcon } from '@colony-care/lab-icons/react'
 
 <MouseIcon size={32} title="Souris de laboratoire" />
 ```
