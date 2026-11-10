@@ -47,6 +47,13 @@ describe.each(sets)('$name icons', ({ name, maxBytes, lab, rootTag: expectedRoot
     if (lab) expect(rootTag).toContain('viewBox="0 0 64 64"')
     if (name === 'species') expect(rootTag).toContain('viewBox="0 0 64 64"')
 
+    if (name === 'duotone') {
+      // exactly one secondary layer: a tint group or the faded detail strokes
+      expect(svg.match(/fill-opacity="\.28"|stroke-opacity="\.4"/g)).toHaveLength(1)
+    } else {
+      expect(svg).not.toMatch(/-opacity=/)
+    }
+
     for (const m of svg.matchAll(/\s(?:fill|stroke)="([^"]*)"/g)) {
       expect(ALLOWED_PAINT.has(m[1])).toBe(true)
     }
