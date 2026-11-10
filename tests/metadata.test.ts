@@ -82,6 +82,13 @@ describe('metadata', () => {
     }
   })
 
+  it('species is present on species and views entries only', () => {
+    for (const e of entries) {
+      if (e.set === 'lab') expect('species' in e).toBe(false)
+      else expect(typeof e.species).toBe('string')
+    }
+  })
+
   it('names and tags are filled in both languages', () => {
     for (const e of entries) {
       expect(e.name.en.length).toBeGreaterThan(0)

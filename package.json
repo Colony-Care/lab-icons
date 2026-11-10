@@ -4,7 +4,7 @@
   "description": "Open-source icons for the lab: laboratory animals, anatomical views and lab equipment in four styles.",
   "license": "CC-BY-4.0 AND MIT",
   "author": "Colony Care <contact@colony.care>",
-  "homepage": "https://colony.care/en/icons",
+  "homepage": "https://github.com/Colony-Care/lab-icons#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Colony-Care/lab-icons.git"
@@ -19,7 +19,12 @@
     "laboratory",
     "mouse",
     "rat",
-    "react"
+    "react",
+    "lab equipment",
+    "microscope",
+    "pipette",
+    "duotone",
+    "react icons"
   ],
   "type": "module",
   "private": false,

@@ -3,7 +3,6 @@
     "slug": "antibody",
     "set": "lab",
     "category": "biology",
-    "species": "antibody",
     "file": "icons/outline/antibody.svg",
     "styles": {
       "outline": "icons/outline/antibody.svg",
@@ -32,7 +31,6 @@
     "slug": "arabidopsis",
     "set": "lab",
     "category": "organisms",
-    "species": "arabidopsis",
     "file": "icons/outline/arabidopsis.svg",
     "styles": {
       "outline": "icons/outline/arabidopsis.svg",
@@ -61,7 +59,6 @@
     "slug": "beaker",
     "set": "lab",
     "category": "bench",
-    "species": "beaker",
     "file": "icons/outline/beaker.svg",
     "styles": {
       "outline": "icons/outline/beaker.svg",
@@ -90,7 +87,6 @@
     "slug": "biosafety-cabinet",
     "set": "lab",
     "category": "instruments",
-    "species": "biosafety-cabinet",
     "file": "icons/outline/biosafety-cabinet.svg",
     "styles": {
       "outline": "icons/outline/biosafety-cabinet.svg",
@@ -119,7 +115,6 @@
     "slug": "brain",
     "set": "lab",
     "category": "biology",
-    "species": "brain",
     "file": "icons/outline/brain.svg",
     "styles": {
       "outline": "icons/outline/brain.svg",
@@ -148,7 +143,6 @@
     "slug": "c-elegans",
     "set": "lab",
     "category": "organisms",
-    "species": "c-elegans",
     "file": "icons/outline/c-elegans.svg",
     "styles": {
       "outline": "icons/outline/c-elegans.svg",
@@ -177,7 +171,6 @@
     "slug": "cage-card",
     "set": "lab",
     "category": "vivarium",
-    "species": "cage-card",
     "file": "icons/outline/cage-card.svg",
     "styles": {
       "outline": "icons/outline/cage-card.svg",
@@ -206,7 +199,6 @@
     "slug": "cell",
     "set": "lab",
     "category": "biology",
-    "species": "cell",
     "file": "icons/outline/cell.svg",
     "styles": {
       "outline": "icons/outline/cell.svg",
@@ -235,7 +227,6 @@
     "slug": "centrifuge",
     "set": "lab",
     "category": "instruments",
-    "species": "centrifuge",
     "file": "icons/outline/centrifuge.svg",
     "styles": {
       "outline": "icons/outline/centrifuge.svg",
@@ -264,7 +255,6 @@
     "slug": "co2-incubator",
     "set": "lab",
     "category": "instruments",
-    "species": "co2-incubator",
     "file": "icons/outline/co2-incubator.svg",
     "styles": {
       "outline": "icons/outline/co2-incubator.svg",
@@ -293,7 +283,6 @@
     "slug": "conical-tube",
     "set": "lab",
     "category": "bench",
-    "species": "conical-tube",
     "file": "icons/outline/conical-tube.svg",
     "styles": {
       "outline": "icons/outline/conical-tube.svg",
@@ -322,7 +311,6 @@
     "slug": "culture-flask",
     "set": "lab",
     "category": "bench",
-    "species": "culture-flask",
     "file": "icons/outline/culture-flask.svg",
     "styles": {
       "outline": "icons/outline/culture-flask.svg",
@@ -351,7 +339,6 @@
     "slug": "dna",
     "set": "lab",
     "category": "biology",
-    "species": "dna",
     "file": "icons/outline/dna.svg",
     "styles": {
       "outline": "icons/outline/dna.svg",
@@ -380,7 +367,6 @@
     "slug": "drosophila",
     "set": "lab",
     "category": "organisms",
-    "species": "drosophila",
     "file": "icons/outline/drosophila.svg",
     "styles": {
       "outline": "icons/outline/drosophila.svg",
@@ -409,7 +395,6 @@
     "slug": "e-coli",
     "set": "lab",
     "category": "organisms",
-    "species": "e-coli",
     "file": "icons/outline/e-coli.svg",
     "styles": {
       "outline": "icons/outline/e-coli.svg",
@@ -438,7 +423,6 @@
     "slug": "erlenmeyer",
     "set": "lab",
     "category": "bench",
-    "species": "erlenmeyer",
     "file": "icons/outline/erlenmeyer.svg",
     "styles": {
       "outline": "icons/outline/erlenmeyer.svg",
@@ -467,7 +451,6 @@
     "slug": "heart",
     "set": "lab",
     "category": "biology",
-    "species": "heart",
     "file": "icons/outline/heart.svg",
     "styles": {
       "outline": "icons/outline/heart.svg",
@@ -496,7 +479,6 @@
     "slug": "ivc-cage",
     "set": "lab",
     "category": "vivarium",
-    "species": "ivc-cage",
     "file": "icons/outline/ivc-cage.svg",
     "styles": {
       "outline": "icons/outline/ivc-cage.svg",
@@ -525,7 +507,6 @@
     "slug": "kidney",
     "set": "lab",
     "category": "biology",
-    "species": "kidney",
     "file": "icons/outline/kidney.svg",
     "styles": {
       "outline": "icons/outline/kidney.svg",
@@ -554,7 +535,6 @@
     "slug": "liver",
     "set": "lab",
     "category": "biology",
-    "species": "liver",
     "file": "icons/outline/liver.svg",
     "styles": {
       "outline": "icons/outline/liver.svg",
@@ -583,7 +563,6 @@
     "slug": "lungs",
     "set": "lab",
     "category": "biology",
-    "species": "lungs",
     "file": "icons/outline/lungs.svg",
     "styles": {
       "outline": "icons/outline/lungs.svg",
@@ -612,7 +591,6 @@
     "slug": "marmoset",
     "set": "lab",
     "category": "organisms",
-    "species": "marmoset",
     "file": "icons/outline/marmoset.svg",
     "styles": {
       "outline": "icons/outline/marmoset.svg",
@@ -641,7 +619,6 @@
     "slug": "medaka",
     "set": "lab",
     "category": "organisms",
-    "species": "medaka",
     "file": "icons/outline/medaka.svg",
     "styles": {
       "outline": "icons/outline/medaka.svg",
@@ -670,7 +647,6 @@
     "slug": "micropipette",
     "set": "lab",
     "category": "bench",
-    "species": "micropipette",
     "file": "icons/outline/micropipette.svg",
     "styles": {
       "outline": "icons/outline/micropipette.svg",
@@ -699,7 +675,6 @@
     "slug": "microscope",
     "set": "lab",
     "category": "instruments",
-    "species": "microscope",
     "file": "icons/outline/microscope.svg",
     "styles": {
       "outline": "icons/outline/microscope.svg",
@@ -728,7 +703,6 @@
     "slug": "microtube",
     "set": "lab",
     "category": "bench",
-    "species": "microtube",
     "file": "icons/outline/microtube.svg",
     "styles": {
       "outline": "icons/outline/microtube.svg",
@@ -757,7 +731,6 @@
     "slug": "nest-house",
     "set": "lab",
     "category": "vivarium",
-    "species": "nest-house",
     "file": "icons/outline/nest-house.svg",
     "styles": {
       "outline": "icons/outline/nest-house.svg",
@@ -786,7 +759,6 @@
     "slug": "neuron",
     "set": "lab",
     "category": "biology",
-    "species": "neuron",
     "file": "icons/outline/neuron.svg",
     "styles": {
       "outline": "icons/outline/neuron.svg",
@@ -815,7 +787,6 @@
     "slug": "petri-dish",
     "set": "lab",
     "category": "bench",
-    "species": "petri-dish",
     "file": "icons/outline/petri-dish.svg",
     "styles": {
       "outline": "icons/outline/petri-dish.svg",
@@ -844,7 +815,6 @@
     "slug": "rat-cage",
     "set": "lab",
     "category": "vivarium",
-    "species": "rat-cage",
     "file": "icons/outline/rat-cage.svg",
     "styles": {
       "outline": "icons/outline/rat-cage.svg",
@@ -873,7 +843,6 @@
     "slug": "rfid-tag",
     "set": "lab",
     "category": "vivarium",
-    "species": "rfid-tag",
     "file": "icons/outline/rfid-tag.svg",
     "styles": {
       "outline": "icons/outline/rfid-tag.svg",
@@ -902,7 +871,6 @@
     "slug": "running-wheel",
     "set": "lab",
     "category": "vivarium",
-    "species": "running-wheel",
     "file": "icons/outline/running-wheel.svg",
     "styles": {
       "outline": "icons/outline/running-wheel.svg",
@@ -931,7 +899,6 @@
     "slug": "syringe",
     "set": "lab",
     "category": "bench",
-    "species": "syringe",
     "file": "icons/outline/syringe.svg",
     "styles": {
       "outline": "icons/outline/syringe.svg",
@@ -960,7 +927,6 @@
     "slug": "test-tube",
     "set": "lab",
     "category": "bench",
-    "species": "test-tube",
     "file": "icons/outline/test-tube.svg",
     "styles": {
       "outline": "icons/outline/test-tube.svg",
@@ -989,7 +955,6 @@
     "slug": "thermocycler",
     "set": "lab",
     "category": "instruments",
-    "species": "thermocycler",
     "file": "icons/outline/thermocycler.svg",
     "styles": {
       "outline": "icons/outline/thermocycler.svg",
@@ -1018,7 +983,6 @@
     "slug": "ult-freezer",
     "set": "lab",
     "category": "instruments",
-    "species": "ult-freezer",
     "file": "icons/outline/ult-freezer.svg",
     "styles": {
       "outline": "icons/outline/ult-freezer.svg",
@@ -1047,7 +1011,6 @@
     "slug": "ventilated-rack",
     "set": "lab",
     "category": "vivarium",
-    "species": "ventilated-rack",
     "file": "icons/outline/ventilated-rack.svg",
     "styles": {
       "outline": "icons/outline/ventilated-rack.svg",
@@ -1076,7 +1039,6 @@
     "slug": "virus",
     "set": "lab",
     "category": "biology",
-    "species": "virus",
     "file": "icons/outline/virus.svg",
     "styles": {
       "outline": "icons/outline/virus.svg",
@@ -1105,7 +1067,6 @@
     "slug": "vortex",
     "set": "lab",
     "category": "instruments",
-    "species": "vortex",
     "file": "icons/outline/vortex.svg",
     "styles": {
       "outline": "icons/outline/vortex.svg",
@@ -1134,7 +1095,6 @@
     "slug": "water-bottle",
     "set": "lab",
     "category": "vivarium",
-    "species": "water-bottle",
     "file": "icons/outline/water-bottle.svg",
     "styles": {
       "outline": "icons/outline/water-bottle.svg",
@@ -1163,7 +1123,6 @@
     "slug": "well-plate",
     "set": "lab",
     "category": "bench",
-    "species": "well-plate",
     "file": "icons/outline/well-plate.svg",
     "styles": {
       "outline": "icons/outline/well-plate.svg",
@@ -1192,7 +1151,6 @@
     "slug": "xenopus",
     "set": "lab",
     "category": "organisms",
-    "species": "xenopus",
     "file": "icons/outline/xenopus.svg",
     "styles": {
       "outline": "icons/outline/xenopus.svg",
@@ -1221,7 +1179,6 @@
     "slug": "yeast",
     "set": "lab",
     "category": "organisms",
-    "species": "yeast",
     "file": "icons/outline/yeast.svg",
     "styles": {
       "outline": "icons/outline/yeast.svg",
@@ -1250,7 +1207,6 @@
     "slug": "zebra-finch",
     "set": "lab",
     "category": "organisms",
-    "species": "zebra-finch",
     "file": "icons/outline/zebra-finch.svg",
     "styles": {
       "outline": "icons/outline/zebra-finch.svg",
@@ -1279,7 +1235,6 @@
     "slug": "zebrafish-rack",
     "set": "lab",
     "category": "vivarium",
-    "species": "zebrafish-rack",
     "file": "icons/outline/zebrafish-rack.svg",
     "styles": {
       "outline": "icons/outline/zebrafish-rack.svg",

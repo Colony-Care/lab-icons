@@ -6,7 +6,7 @@
 
 Free SVG icons of laboratory animals, anatomical views and lab equipment, for scientific figures, posters and lab software.
 
-[Browse the icons](https://colony.care/en/icons) · [Colony Care](https://colony.care) · [npm](https://www.npmjs.com/package/@colony-care/lab-icons) · [Version française](#français)
+[Browse the icons](#icon-list) · [Colony Care](https://colony.care) · [npm](https://www.npmjs.com/package/@colony-care/lab-icons) · [Version française](#français)
 
 [![npm version](https://img.shields.io/npm/v/@colony-care/lab-icons?style=flat)](https://www.npmjs.com/package/@colony-care/lab-icons)
 [![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue?style=flat)](LICENSE)
@@ -36,7 +36,7 @@ Free SVG icons of laboratory animals, anatomical views and lab equipment, for sc
 
 ### Download
 
-Every icon has its own page on [colony.care/en/icons](https://colony.care/en/icons), with a ready-to-use SVG download.
+The SVG files are in the [`icons/` folder](https://github.com/Colony-Care/lab-icons/tree/main/icons) of this repository. A browsable gallery on colony.care is coming.
 
 ### npm and React
 
@@ -50,7 +50,7 @@ import { MouseIcon } from '@colony-care/lab-icons/react'
 <MouseIcon size={32} title="Lab mouse" />
 ```
 
-The React components cover the 19 species icons and the 45 lab icons. The 41 anatomical views ship as SVG files only.
+The React components cover the 19 species icons and the 45 lab icons. The 41 anatomical views ship as SVG files only. Component names are the PascalCase slug followed by `Icon`, for example `co2-incubator` becomes `Co2IncubatorIcon` and `e-coli` becomes `EColiIcon`.
 
 ### Styles
 
@@ -71,7 +71,7 @@ import { MicroscopeIcon } from '@colony-care/lab-icons/react'
 <MicroscopeIcon variant="solid" />
 ```
 
-Species icons keep a single style for now. The four styles come to them in a coming release.
+Species icons keep a single style for now. They will get the four styles in a later release.
 
 ### Raw SVG
 
@@ -82,7 +82,7 @@ The SVG files ship in the package, for example `@colony-care/lab-icons/icons/spe
 Please credit the icons with this line:
 
 ```text
-Icons: Colony Care (https://colony.care/en/icons), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Icons: Colony Care (https://colony.care), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ```
 
 In a paper, put it in the figure legend or in the acknowledgements.
@@ -251,7 +251,7 @@ Colony Care is lab animal colony management software for research facilities, bu
 
 ### Utilisation
 
-**Téléchargement.** Chaque icône a sa propre page sur [colony.care/fr-ca/icons](https://colony.care/fr-ca/icons), avec un SVG prêt à l’emploi.
+**Téléchargement.** Les fichiers SVG se trouvent dans le [dossier `icons/`](https://github.com/Colony-Care/lab-icons/tree/main/icons) de ce dépôt. Une galerie consultable sur colony.care arrive bientôt.
 
 **npm et React.** Installez le paquet :
 
@@ -267,7 +267,7 @@ import { MouseIcon } from '@colony-care/lab-icons/react'
 <MouseIcon size={32} title="Souris de laboratoire" />
 ```
 
-Les composants React couvrent les 19 icônes d’espèces et les 45 icônes de laboratoire. Les 41 vues anatomiques sont fournies uniquement en fichiers SVG.
+Les composants React couvrent les 19 icônes d’espèces et les 45 icônes de laboratoire. Les 41 vues anatomiques sont fournies uniquement en fichiers SVG. Le nom d’un composant est le slug en PascalCase suivi de `Icon` : par exemple, `co2-incubator` devient `Co2IncubatorIcon` et `e-coli` devient `EColiIcon`.
 
 **Styles.** Chaque icône de laboratoire existe en quatre styles, dans son propre dossier : `icons/outline/` (contour), `icons/solid/` (plein), `icons/duotone/` (bicolore) et `icons/inverse/` (inversé). En React, choisissez-en un avec la propriété `variant` (contour par défaut) :
 
@@ -277,7 +277,7 @@ import { MicroscopeIcon } from '@colony-care/lab-icons/react'
 <MicroscopeIcon variant="solid" />
 ```
 
-Les icônes d’espèces n’ont qu’un seul style pour l’instant. Les quatre styles leur seront offerts dans une prochaine version.
+Les icônes d’espèces n’ont qu’un seul style pour l’instant. Elles recevront les quatre styles dans une version ultérieure.
 
 **SVG brut.** Les fichiers SVG sont inclus dans le paquet, par exemple `@colony-care/lab-icons/icons/species/mouse.svg` ou `@colony-care/lab-icons/icons/solid/microscope.svg`. La liste complète, avec les noms et les mots-clés en français et en anglais, se trouve dans `@colony-care/lab-icons/icons.json`.
 
@@ -286,7 +286,7 @@ Les icônes d’espèces n’ont qu’un seul style pour l’instant. Les quatre
 Merci de citer les icônes avec cette ligne :
 
 ```text
-Icônes : Colony Care (https://colony.care/fr-ca/icons), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Icônes : Colony Care (https://colony.care/fr-ca), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.fr)
 ```
 
 Dans un article scientifique, placez-la dans la légende de la figure ou dans les remerciements.

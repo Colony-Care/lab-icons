@@ -9,8 +9,8 @@ export interface IconEntry {
   set: IconSet
   /** lab icons only */
   category?: IconCategory
-  /** species slug, e.g. 'guinea-pig' */
-  species: string
+  /** Animal species slug. Present on species icons and anatomical views only. */
+  species?: string
   /** views only */
   view?: IconView
   /** repo-relative, e.g. 'icons/species/mouse.svg' */
