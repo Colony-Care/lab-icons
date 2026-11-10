@@ -44,6 +44,8 @@ import { MouseIcon } from '@colony-care/lab-icons/react'
 <MouseIcon size={32} title="Lab mouse" />
 ```
 
+The React components cover the 19 species icons. The 41 anatomical views ship as SVG files only.
+
 ### Raw SVG
 
 The SVG files ship in the package, for example `@colony-care/lab-icons/icons/species/mouse.svg`. The full list, with names and tags in English and French, is in `@colony-care/lab-icons/icons.json`.
@@ -53,7 +55,7 @@ The SVG files ship in the package, for example `@colony-care/lab-icons/icons/spe
 Please credit the icons with this line:
 
 ```text
-Icons: Colony Care (https://colony.care/en/icons), CC BY 4.0
+Icons: Colony Care (https://colony.care/en/icons), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ```
 
 In a paper, put it in the figure legend or in the acknowledgements.
@@ -147,7 +149,13 @@ Colony Care is lab animal colony management software for research facilities, bu
 
 **Téléchargement.** Chaque icône a sa propre page sur [colony.care/fr-ca/icons](https://colony.care/fr-ca/icons), avec un SVG prêt à l’emploi.
 
-**npm et React.** Installez le paquet, puis importez l’icône voulue :
+**npm et React.** Installez le paquet :
+
+```bash
+npm install @colony-care/lab-icons
+```
+
+Puis importez l’icône voulue :
 
 ```tsx
 import { MouseIcon } from '@colony-care/lab-icons/react'
@@ -155,14 +163,16 @@ import { MouseIcon } from '@colony-care/lab-icons/react'
 <MouseIcon size={32} title="Souris de laboratoire" />
 ```
 
+Les composants React couvrent les 19 icônes d’espèces. Les 41 vues anatomiques sont fournies uniquement en fichiers SVG.
+
 **SVG brut.** Les fichiers SVG sont inclus dans le paquet, par exemple `@colony-care/lab-icons/icons/species/mouse.svg`. La liste complète, avec les noms et les mots-clés en français et en anglais, se trouve dans `@colony-care/lab-icons/icons.json`.
 
 ### Mention de source
 
-Merci de citer les icônes avec cette ligne :
+Merci de citer les icônes avec cette ligne :
 
 ```text
-Icônes : Colony Care (https://colony.care/fr-ca/icons), CC BY 4.0
+Icônes : Colony Care (https://colony.care/fr-ca/icons), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ```
 
 Dans un article scientifique, placez-la dans la légende de la figure ou dans les remerciements.
