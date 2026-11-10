@@ -29,6 +29,8 @@ describe.each(sets)('$name icons', ({ name, maxBytes }) => {
     expect(svg).not.toContain('<metadata')
     expect(svg).not.toContain('<!DOCTYPE')
     expect(svg).not.toContain('<?xml')
+    // bodies are injected with dangerouslySetInnerHTML, so no active or external content
+    expect(svg).not.toMatch(/<style|<script|\sstyle=|href/i)
     expect(rootTag).not.toMatch(/\s(width|height)=/)
     expect(rootTag).toMatch(/\sviewBox="/)
     expect(rootTag).toContain('fill="currentColor"')

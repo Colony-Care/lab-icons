@@ -1,5 +1,5 @@
 import { execSync } from 'node:child_process'
-import { existsSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { createRequire } from 'node:module'
 import { beforeAll, describe, expect, it } from 'vitest'
 
@@ -24,6 +24,27 @@ describe('built package', () => {
     expect(typeof react.MouseIcon.render).toBe('function')
     const root = require('../dist/index.cjs')
     expect(root.icons).toHaveLength(60)
+  })
+
+  it('marks every icon as pure so bundlers can tree-shake', () => {
+    for (const f of ['dist/react/index.js', 'dist/react/index.cjs']) {
+      const code = readFileSync(f, 'utf8')
+      expect(code.match(/(?:@__PURE__|#__PURE__) \*\/ createIcon\(/g)).toHaveLength(19)
+    }
+  })
+
+  it('a single-icon import bundles only that icon', async () => {
+    const { build } = await import('esbuild')
+    const result = await build({
+      stdin: { contents: "import { MouseIcon } from './dist/react/index.js'\nconsole.log(MouseIcon)", resolveDir: process.cwd() },
+      bundle: true,
+      write: false,
+      format: 'esm',
+      external: ['react', 'react/jsx-runtime'],
+    })
+    const out = result.outputFiles[0].text
+    expect(out).toContain('MouseIcon')
+    expect(out).not.toContain('ZebrafishIcon')
   })
 
   it('types are emitted', () => {
