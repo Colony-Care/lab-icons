@@ -1,6 +1,8 @@
 import { forwardRef } from 'react'
 import type { ForwardRefExoticComponent, RefAttributes, SVGProps } from 'react'
 
+export type IconStyle = 'outline' | 'solid' | 'duotone' | 'inverse'
+
 export interface IconProps extends Omit<SVGProps<SVGSVGElement>, 'ref'> {
   /** Width and height. A number is in pixels; a string is used as is ('1em'). Default 24. */
   size?: number | string
@@ -8,21 +10,33 @@ export interface IconProps extends Omit<SVGProps<SVGSVGElement>, 'ref'> {
   title?: string
 }
 
-export function createIcon(
+export interface LabIconProps extends IconProps {
+  /** Drawing style. Default 'outline'. */
+  variant?: IconStyle
+}
+
+export interface IconVariant {
+  /** Root paint attributes of the style file, in React (camelCase) form. */
+  attrs: Record<string, string>
+  /** Inner markup of the style file. */
+  body: string
+}
+
+export function createIcon<P extends IconProps = IconProps>(
   displayName: string,
   viewBox: string,
-  body: string,
-): ForwardRefExoticComponent<IconProps & RefAttributes<SVGSVGElement>> {
-  const Icon = forwardRef<SVGSVGElement, IconProps>(function Icon(
-    { size = 24, title, ...props },
-    ref,
-  ) {
+  variants: Partial<Record<IconStyle, IconVariant>> & { outline: IconVariant },
+): ForwardRefExoticComponent<P & RefAttributes<SVGSVGElement>> {
+  const Icon = forwardRef<SVGSVGElement, P>(function Icon(allProps, ref) {
+    // `variant` is always removed so it never reaches the DOM, even on components that do not offer it.
+    const { size = 24, title, variant, ...props } = allProps as LabIconProps
+    const chosen = (variant && Object.prototype.hasOwnProperty.call(variants, variant) && variants[variant]) || variants.outline
     const named = Boolean(title || props['aria-label'] || props['aria-labelledby'])
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox={viewBox}
-        fill="currentColor"
+        {...chosen.attrs}
         width={size}
         height={size}
         role={named ? 'img' : undefined}
@@ -32,10 +46,10 @@ export function createIcon(
       >
         {title ? <title>{title}</title> : null}
         {/* body comes from this repo's own SVG files at build time, never from user input */}
-        <g dangerouslySetInnerHTML={{ __html: body }} />
+        <g dangerouslySetInnerHTML={{ __html: chosen.body }} />
       </svg>
     )
   })
   Icon.displayName = displayName
-  return Icon
+  return Icon as ForwardRefExoticComponent<P & RefAttributes<SVGSVGElement>>
 }

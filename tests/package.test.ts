@@ -29,7 +29,7 @@ describe('built package', () => {
   it('marks every icon as pure so bundlers can tree-shake', () => {
     for (const f of ['dist/react/index.js', 'dist/react/index.cjs']) {
       const code = readFileSync(f, 'utf8')
-      expect(code.match(/(?:@__PURE__|#__PURE__) \*\/ createIcon\(/g)).toHaveLength(19)
+      expect(code.match(/(?:@__PURE__|#__PURE__) \*\/ createIcon\(/g)).toHaveLength(64)
     }
   })
 
@@ -45,6 +45,21 @@ describe('built package', () => {
     const out = result.outputFiles[0].text
     expect(out).toContain('MouseIcon')
     expect(out).not.toContain('ZebrafishIcon')
+  })
+
+  it('a single lab icon import does not pull other lab icons', async () => {
+    const { build } = await import('esbuild')
+    const result = await build({
+      stdin: { contents: "import { MicroscopeIcon } from './dist/react/index.js'\nconsole.log(MicroscopeIcon)", resolveDir: process.cwd() },
+      bundle: true,
+      write: false,
+      format: 'esm',
+      external: ['react', 'react/jsx-runtime'],
+    })
+    const out = result.outputFiles[0].text
+    expect(out).toContain('MicroscopeIcon')
+    expect(out).not.toContain('CentrifugeIcon')
+    expect(out).not.toContain('MouseIcon')
   })
 
   it('types are emitted', () => {
