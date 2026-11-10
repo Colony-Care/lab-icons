@@ -5,7 +5,13 @@
   "license": "CC-BY-4.0 AND MIT",
   "author": "Colony Care <contact@colony.care>",
   "homepage": "https://colony.care/en/icons",
-  "repository": "github:Colony-Care/lab-icons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Colony-Care/lab-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Colony-Care/lab-icons/issues"
+  },
   "keywords": [
     "icons",
     "svg",
@@ -17,6 +23,9 @@
   ],
   "type": "module",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "sideEffects": false,
   "engines": {
     "node": ">=18"
@@ -63,10 +72,11 @@
     "pretest": "npm run generate",
     "prebuild": "npm run generate",
     "build": "tsup",
+    "prepublishOnly": "npm test && npm run build",
     "preview": "node scripts/build-preview.mjs"
   },
   "peerDependencies": {
-    "react": ">=17"
+    "react": ">=18"
   },
   "peerDependenciesMeta": {
     "react": {
