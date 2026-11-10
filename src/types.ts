@@ -15,7 +15,7 @@ export interface IconEntry {
   view?: IconView
   /** repo-relative, e.g. 'icons/species/mouse.svg' */
   file: string
-  /** repo-relative file per style; always has `outline` */
+  /** repo-relative file per style; always has `outline`. Species and lab icons have all four, views only `outline`. */
   styles: Partial<Record<IconStyle, string>>
   name: { en: string; fr: string }
   tags: { en: string[]; fr: string[] }

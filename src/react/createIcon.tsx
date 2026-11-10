@@ -8,12 +8,12 @@ export interface IconProps extends Omit<SVGProps<SVGSVGElement>, 'ref'> {
   size?: number | string
   /** Accessible name. Adds a <title> and role="img". */
   title?: string
-}
-
-export interface LabIconProps extends IconProps {
   /** Drawing style. Default 'outline'. */
   variant?: IconStyle
 }
+
+/** Kept for compatibility: every icon now accepts `variant`, so this is the same as IconProps. */
+export type LabIconProps = IconProps
 
 export interface IconVariant {
   /** Root paint attributes of the style file, in React (camelCase) form. */
@@ -28,8 +28,8 @@ export function createIcon<P extends IconProps = IconProps>(
   variants: Partial<Record<IconStyle, IconVariant>> & { outline: IconVariant },
 ): ForwardRefExoticComponent<P & RefAttributes<SVGSVGElement>> {
   const Icon = forwardRef<SVGSVGElement, P>(function Icon(allProps, ref) {
-    // `variant` is always removed so it never reaches the DOM, even on components that do not offer it.
-    const { size = 24, title, variant, ...props } = allProps as LabIconProps
+    // `variant` is removed so it never reaches the DOM.
+    const { size = 24, title, variant, ...props } = allProps as IconProps
     const chosen = (variant && Object.prototype.hasOwnProperty.call(variants, variant) && variants[variant]) || variants.outline
     const named = Boolean(title || props['aria-label'] || props['aria-labelledby'])
     return (

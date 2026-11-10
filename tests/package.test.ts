@@ -70,7 +70,7 @@ describe('built package', () => {
   it('tarball content', () => {
     const out = execSync('npm pack --dry-run --json', { stdio: ['ignore', 'pipe', 'ignore'] }).toString()
     const files: string[] = JSON.parse(out)[0].files.map((f: { path: string }) => f.path)
-    for (const p of ['LICENSE', 'LICENSE-CODE', 'README.md', 'icons/species/mouse.svg', 'metadata/icons.json']) {
+    for (const p of ['LICENSE', 'LICENSE-CODE', 'README.md', 'icons/species/mouse.svg', 'icons/outline/mouse.svg', 'icons/solid/mouse.svg', 'icons/duotone/mouse.svg', 'icons/inverse/mouse.svg', 'metadata/icons.json']) {
       expect(files).toContain(p)
     }
     for (const style of ['outline', 'solid', 'duotone', 'inverse']) {

@@ -20,18 +20,28 @@ const sets = [
 
 const ALLOWED_PAINT = new Set(['currentColor', 'none'])
 
-describe.each(sets)('$name icons', ({ name, maxBytes, lab, rootTag: expectedRoot }) => {
+const speciesSlugs = new Set(
+  (JSON.parse(readFileSync(join(root, 'metadata/icons.json'), 'utf8')) as { slug: string; set: string }[])
+    .filter((i) => i.set === 'species')
+    .map((i) => i.slug),
+)
+const isSpecies = (file: string) => speciesSlugs.has(file.replace(/\.svg$/, ''))
+
+describe.each(sets)('$name icons', ({ name, maxBytes, lab, rootTag: labRoot }) => {
   const dir = join(root, 'icons', name)
   const files = readdirSync(dir).filter((f) => f.endsWith('.svg'))
 
   it('has icons', () => {
     expect(files.length).toBeGreaterThan(0)
+    if (lab) expect(files).toHaveLength(64)
   })
 
   it.each(files)('%s is clean', (file) => {
     const path = join(dir, file)
     const svg = readFileSync(path, 'utf8')
     const rootTag = svg.match(/<svg\b[^>]*>/)?.[0] ?? ''
+    // species are filled artwork in every folder; only lab outline and duotone use the stroke root
+    const expectedRoot = lab && !isSpecies(file) ? labRoot : lab ? FILL_ROOT : undefined
 
     expect(svg).not.toContain('<!--')
     expect(svg).not.toContain('<metadata')
@@ -57,7 +67,7 @@ describe.each(sets)('$name icons', ({ name, maxBytes, lab, rootTag: expectedRoot
     for (const m of svg.matchAll(/\s(?:fill|stroke)="([^"]*)"/g)) {
       expect(ALLOWED_PAINT.has(m[1])).toBe(true)
     }
-    expect(statSync(path).size).toBeLessThan(maxBytes)
+    expect(statSync(path).size).toBeLessThan(lab && isSpecies(file) ? 16 * 1024 : maxBytes)
   })
 })
 
@@ -71,7 +81,8 @@ describe('optimize', () => {
     'leaves %s unchanged',
     (rel) => {
       const svg = readFileSync(join(root, rel), 'utf8')
-      expect(optimizeSvg(svg, rel.split('/')[1])).toBe(svg)
+      const [, folder, file] = rel.split('/')
+      expect(optimizeSvg(svg, folder, speciesSlugs.has(file.replace(/\.svg$/, '')))).toBe(svg)
     },
   )
 

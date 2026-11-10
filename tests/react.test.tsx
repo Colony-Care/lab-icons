@@ -31,10 +31,30 @@ describe('react components', () => {
     expect(renderToStaticMarkup(<ZebrafishIcon title="t" size={10} />)).toBe(fixture('zebrafish-titled-0.1.0.html'))
   })
 
-  it('species ignore a variant prop and never put it in the DOM', () => {
-    const html = renderToStaticMarkup(<MouseIcon {...({ variant: 'solid' } as any)} />)
-    expect(html).toBe(fixture('mouse-0.1.0.html'))
-    expect(html).not.toContain('variant')
+  it('species accept a variant and never put it in the DOM', () => {
+    const outline = renderToStaticMarkup(<MouseIcon variant="outline" />)
+    expect(outline).toBe(fixture('mouse-0.1.0.html'))
+    const solid = renderToStaticMarkup(<MouseIcon variant="solid" />)
+    expect(solid).toContain('fill="currentColor"')
+    expect(solid).not.toContain('variant')
+    expect(solid).not.toBe(outline)
+    const files = readFileSync(join(__dirname, '../icons/solid/mouse.svg'), 'utf8').trim()
+    expect(solid).toContain(files.match(/<svg[^>]*>([\s\S]*)<\/svg>/)![1])
+    expect(renderToStaticMarkup(<MouseIcon variant="duotone" />)).toContain('fill-opacity')
+  })
+
+  it('all 64 components accept variant and render four different markups', () => {
+    for (const n of allNames) {
+      const C = (react as any)[n]
+      const out = variants.map((v) => renderToStaticMarkup(<C variant={v} />))
+      expect(new Set(out).size, n).toBeGreaterThanOrEqual(3)
+    }
+  })
+
+  it('LabIconProps stays exported as an alias of IconProps', () => {
+    const props: react.LabIconProps = { variant: 'solid', size: 10 }
+    const same: react.IconProps = props
+    expect(same.variant).toBe('solid')
   })
 
   it('lab icons default to outline root attributes', () => {
@@ -127,7 +147,7 @@ describe('react components', () => {
     for (const [, C] of components) {
       expect(() => renderToStaticMarkup(<C />)).not.toThrow()
     }
-    for (const n of labNames) {
+    for (const n of allNames) {
       const C = (react as any)[n]
       for (const v of variants) expect(() => renderToStaticMarkup(<C variant={v} />)).not.toThrow()
     }

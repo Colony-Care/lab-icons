@@ -24,8 +24,8 @@ function svgFiles(): string[] {
 describe('metadata', () => {
   it('every icon file has exactly one metadata entry and vice versa', () => {
     const files = svgFiles().sort()
-    const declared = entries.flatMap((e) => Object.values(e.styles)).sort()
-    expect(new Set(declared).size).toBe(declared.length)
+    // icons/species/ keeps the original file next to icons/outline/ for 0.1 and 0.2 compatibility
+    const declared = [...new Set(entries.flatMap((e) => [e.file, ...Object.values(e.styles)]))].sort()
     expect(declared).toEqual(files)
   })
 
@@ -48,11 +48,24 @@ describe('metadata', () => {
     }
   })
 
-  it('every styles path exists and existing entries only gained styles.outline', () => {
+  it('species entries carry all four styles and keep their original file', () => {
+    for (const e of entries.filter((x) => x.set === 'species')) {
+      expect(e.file).toBe(`icons/species/${e.slug}.svg`)
+      expect(e.styles).toEqual({
+        outline: `icons/outline/${e.slug}.svg`,
+        solid: `icons/solid/${e.slug}.svg`,
+        duotone: `icons/duotone/${e.slug}.svg`,
+        inverse: `icons/inverse/${e.slug}.svg`,
+      })
+      expect(readFileSync(join(root, e.styles.outline), 'utf8')).toBe(readFileSync(join(root, e.file), 'utf8'))
+    }
+  })
+
+  it('every styles path exists and views only have styles.outline', () => {
     for (const e of entries) {
       expect(e.styles.outline).toBeDefined()
       for (const p of Object.values(e.styles)) expect(existsSync(join(root, p))).toBe(true)
-      if (e.set !== 'lab') expect(e.styles).toEqual({ outline: e.file })
+      if (e.set === 'views') expect(e.styles).toEqual({ outline: e.file })
     }
     const mouse = entries.find((e) => e.slug === 'mouse')
     expect(mouse?.file).toBe('icons/species/mouse.svg')

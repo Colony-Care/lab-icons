@@ -72,7 +72,7 @@ function list(lang) {
   for (const g of GROUPS) {
     const items = icons.filter(g.pick).sort((x, y) => x.slug.localeCompare(y.slug))
     if (!items.length) continue
-    const lab = items.every((i) => i.set === 'lab')
+    const lab = items.every((i) => i.set !== 'views') // species and lab icons have four styles
     const head = [...HEAD[lang], ...(lab ? ['Styles'] : [])]
     parts.push(
       `${lang === 'en' ? '###' : '####'} ${g.title[lang]}`,

@@ -30,7 +30,7 @@ Free SVG icons of laboratory animals, anatomical views and lab equipment, for sc
 
 | Species icons | Anatomical views | Lab icons |
 | --- | --- | --- |
-| 19 icons, 64×64, drawn in `currentColor` | 41 views: dorsal, ventral, lateral, across 22 species | 45 icons in four styles: organisms, vivarium, bench, instruments, organs and cells |
+| 19 icons in four styles, 64×64, drawn in `currentColor` | 41 views: dorsal, ventral, lateral, across 22 species | 45 icons in four styles: organisms, vivarium, bench, instruments, organs and cells |
 
 ## Use it
 
@@ -54,7 +54,7 @@ The React components cover the 19 species icons and the 45 lab icons. The 41 ana
 
 ### Styles
 
-Each lab icon comes in four styles, in its own folder:
+All 64 icons, the 19 species and the 45 lab icons, come in four styles, each in its own folder (for example `icons/solid/mouse.svg`). The anatomical views come in one style:
 
 | Style | Folder |
 | --- | --- |
@@ -71,11 +71,11 @@ import { MicroscopeIcon } from '@colony-care/lab-icons/react'
 <MicroscopeIcon variant="solid" />
 ```
 
-Species icons keep a single style for now. They will get the four styles in a later release.
+The original species files stay in `icons/species/`, identical to `icons/outline/`, so existing links keep working.
 
 ### Raw SVG
 
-The SVG files ship in the package, for example `@colony-care/lab-icons/icons/species/mouse.svg` or `@colony-care/lab-icons/icons/solid/microscope.svg`. The full list, with names and tags in English and French, is in `@colony-care/lab-icons/icons.json`.
+The SVG files ship in the package, for example `@colony-care/lab-icons/icons/outline/mouse.svg` or `@colony-care/lab-icons/icons/solid/microscope.svg`. The full list, with names and tags in English and French, is in `@colony-care/lab-icons/icons.json`.
 
 ## Credit
 
@@ -93,27 +93,27 @@ In a paper, put it in the figure legend or in the acknowledgements.
 
 ### Species
 
-| Slug | English | Français |
-| --- | --- | --- |
-| `ant` | Ant | Fourmi |
-| `cat` | Cat | Chat |
-| `cattle` | Cattle | Bovin |
-| `chicken` | Chicken | Poulet |
-| `dog` | Dog | Chien |
-| `ferret` | Ferret | Furet |
-| `frog` | Frog | Grenouille |
-| `goat` | Goat | Chèvre |
-| `guinea-pig` | Guinea pig | Cobaye |
-| `hamster` | Hamster | Hamster |
-| `horse` | Horse | Cheval |
-| `mouse` | Mouse | Souris |
-| `pig` | Pig | Porc |
-| `primate` | Non-human primate | Primate non humain |
-| `rabbit` | Rabbit | Lapin |
-| `rat` | Rat | Rat |
-| `sheep` | Sheep | Mouton |
-| `turkey` | Turkey | Dindon |
-| `zebrafish` | Zebrafish | Poisson-zèbre |
+| Slug | English | Français | Styles |
+| --- | --- | --- | --- |
+| `ant` | Ant | Fourmi | outline, solid, duotone, inverse |
+| `cat` | Cat | Chat | outline, solid, duotone, inverse |
+| `cattle` | Cattle | Bovin | outline, solid, duotone, inverse |
+| `chicken` | Chicken | Poulet | outline, solid, duotone, inverse |
+| `dog` | Dog | Chien | outline, solid, duotone, inverse |
+| `ferret` | Ferret | Furet | outline, solid, duotone, inverse |
+| `frog` | Frog | Grenouille | outline, solid, duotone, inverse |
+| `goat` | Goat | Chèvre | outline, solid, duotone, inverse |
+| `guinea-pig` | Guinea pig | Cobaye | outline, solid, duotone, inverse |
+| `hamster` | Hamster | Hamster | outline, solid, duotone, inverse |
+| `horse` | Horse | Cheval | outline, solid, duotone, inverse |
+| `mouse` | Mouse | Souris | outline, solid, duotone, inverse |
+| `pig` | Pig | Porc | outline, solid, duotone, inverse |
+| `primate` | Non-human primate | Primate non humain | outline, solid, duotone, inverse |
+| `rabbit` | Rabbit | Lapin | outline, solid, duotone, inverse |
+| `rat` | Rat | Rat | outline, solid, duotone, inverse |
+| `sheep` | Sheep | Mouton | outline, solid, duotone, inverse |
+| `turkey` | Turkey | Dindon | outline, solid, duotone, inverse |
+| `zebrafish` | Zebrafish | Poisson-zèbre | outline, solid, duotone, inverse |
 
 ### Anatomical views
 
@@ -247,7 +247,7 @@ Colony Care is lab animal colony management software for research facilities, bu
 
 | Icônes d’espèces | Vues anatomiques | Icônes de laboratoire |
 | --- | --- | --- |
-| 19 icônes, 64×64, dessinées en `currentColor` | 41 vues : dorsale, ventrale, latérale, pour 22 espèces | 45 icônes en quatre styles : organismes, animalerie, paillasse, instruments, organes et cellules |
+| 19 icônes en quatre styles, 64×64, dessinées en `currentColor` | 41 vues : dorsale, ventrale, latérale, pour 22 espèces | 45 icônes en quatre styles : organismes, animalerie, paillasse, instruments, organes et cellules |
 
 ### Utilisation
 
@@ -269,7 +269,7 @@ import { MouseIcon } from '@colony-care/lab-icons/react'
 
 Les composants React couvrent les 19 icônes d’espèces et les 45 icônes de laboratoire. Les 41 vues anatomiques sont fournies uniquement en fichiers SVG. Le nom d’un composant est le slug en PascalCase suivi de `Icon` : par exemple, `co2-incubator` devient `Co2IncubatorIcon` et `e-coli` devient `EColiIcon`.
 
-**Styles.** Chaque icône de laboratoire existe en quatre styles, dans son propre dossier : `icons/outline/` (contour), `icons/solid/` (plein), `icons/duotone/` (bicolore) et `icons/inverse/` (inversé). En React, choisissez-en un avec la propriété `variant` (contour par défaut) :
+**Styles.** Les 64 icônes, soit les 19 espèces et les 45 icônes de laboratoire, existent en quatre styles, chacun dans son propre dossier (par exemple `icons/solid/mouse.svg`) : `icons/outline/` (contour), `icons/solid/` (plein), `icons/duotone/` (bicolore) et `icons/inverse/` (inversé). En React, choisissez-en un avec la propriété `variant` (contour par défaut) :
 
 ```tsx
 import { MicroscopeIcon } from '@colony-care/lab-icons/react'
@@ -277,9 +277,9 @@ import { MicroscopeIcon } from '@colony-care/lab-icons/react'
 <MicroscopeIcon variant="solid" />
 ```
 
-Les icônes d’espèces n’ont qu’un seul style pour l’instant. Elles recevront les quatre styles dans une version ultérieure.
+Les vues anatomiques n’existent que dans un seul style. Les fichiers d’origine des espèces restent dans `icons/species/`, identiques à ceux de `icons/outline/`, si bien que les liens existants continuent de fonctionner.
 
-**SVG brut.** Les fichiers SVG sont inclus dans le paquet, par exemple `@colony-care/lab-icons/icons/species/mouse.svg` ou `@colony-care/lab-icons/icons/solid/microscope.svg`. La liste complète, avec les noms et les mots-clés en français et en anglais, se trouve dans `@colony-care/lab-icons/icons.json`.
+**SVG brut.** Les fichiers SVG sont inclus dans le paquet, par exemple `@colony-care/lab-icons/icons/outline/mouse.svg` ou `@colony-care/lab-icons/icons/solid/microscope.svg`. La liste complète, avec les noms et les mots-clés en français et en anglais, se trouve dans `@colony-care/lab-icons/icons.json`.
 
 ### Mention de source
 
@@ -297,27 +297,27 @@ Dans un article scientifique, placez-la dans la légende de la figure ou dans le
 
 #### Espèces
 
-| Identifiant | English | Français |
-| --- | --- | --- |
-| `ant` | Ant | Fourmi |
-| `cat` | Cat | Chat |
-| `cattle` | Cattle | Bovin |
-| `chicken` | Chicken | Poulet |
-| `dog` | Dog | Chien |
-| `ferret` | Ferret | Furet |
-| `frog` | Frog | Grenouille |
-| `goat` | Goat | Chèvre |
-| `guinea-pig` | Guinea pig | Cobaye |
-| `hamster` | Hamster | Hamster |
-| `horse` | Horse | Cheval |
-| `mouse` | Mouse | Souris |
-| `pig` | Pig | Porc |
-| `primate` | Non-human primate | Primate non humain |
-| `rabbit` | Rabbit | Lapin |
-| `rat` | Rat | Rat |
-| `sheep` | Sheep | Mouton |
-| `turkey` | Turkey | Dindon |
-| `zebrafish` | Zebrafish | Poisson-zèbre |
+| Identifiant | English | Français | Styles |
+| --- | --- | --- | --- |
+| `ant` | Ant | Fourmi | outline, solid, duotone, inverse |
+| `cat` | Cat | Chat | outline, solid, duotone, inverse |
+| `cattle` | Cattle | Bovin | outline, solid, duotone, inverse |
+| `chicken` | Chicken | Poulet | outline, solid, duotone, inverse |
+| `dog` | Dog | Chien | outline, solid, duotone, inverse |
+| `ferret` | Ferret | Furet | outline, solid, duotone, inverse |
+| `frog` | Frog | Grenouille | outline, solid, duotone, inverse |
+| `goat` | Goat | Chèvre | outline, solid, duotone, inverse |
+| `guinea-pig` | Guinea pig | Cobaye | outline, solid, duotone, inverse |
+| `hamster` | Hamster | Hamster | outline, solid, duotone, inverse |
+| `horse` | Horse | Cheval | outline, solid, duotone, inverse |
+| `mouse` | Mouse | Souris | outline, solid, duotone, inverse |
+| `pig` | Pig | Porc | outline, solid, duotone, inverse |
+| `primate` | Non-human primate | Primate non humain | outline, solid, duotone, inverse |
+| `rabbit` | Rabbit | Lapin | outline, solid, duotone, inverse |
+| `rat` | Rat | Rat | outline, solid, duotone, inverse |
+| `sheep` | Sheep | Mouton | outline, solid, duotone, inverse |
+| `turkey` | Turkey | Dindon | outline, solid, duotone, inverse |
+| `zebrafish` | Zebrafish | Poisson-zèbre | outline, solid, duotone, inverse |
 
 #### Vues anatomiques
 

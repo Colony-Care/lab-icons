@@ -1277,7 +1277,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/ant.svg"
+      "outline": "icons/outline/ant.svg",
+      "solid": "icons/solid/ant.svg",
+      "duotone": "icons/duotone/ant.svg",
+      "inverse": "icons/inverse/ant.svg"
     }
   },
   {
@@ -1298,7 +1301,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/cat.svg"
+      "outline": "icons/outline/cat.svg",
+      "solid": "icons/solid/cat.svg",
+      "duotone": "icons/duotone/cat.svg",
+      "inverse": "icons/inverse/cat.svg"
     }
   },
   {
@@ -1321,7 +1327,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/cattle.svg"
+      "outline": "icons/outline/cattle.svg",
+      "solid": "icons/solid/cattle.svg",
+      "duotone": "icons/duotone/cattle.svg",
+      "inverse": "icons/inverse/cattle.svg"
     }
   },
   {
@@ -1342,7 +1351,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/chicken.svg"
+      "outline": "icons/outline/chicken.svg",
+      "solid": "icons/solid/chicken.svg",
+      "duotone": "icons/duotone/chicken.svg",
+      "inverse": "icons/inverse/chicken.svg"
     }
   },
   {
@@ -1363,7 +1375,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/dog.svg"
+      "outline": "icons/outline/dog.svg",
+      "solid": "icons/solid/dog.svg",
+      "duotone": "icons/duotone/dog.svg",
+      "inverse": "icons/inverse/dog.svg"
     }
   },
   {
@@ -1384,7 +1399,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/ferret.svg"
+      "outline": "icons/outline/ferret.svg",
+      "solid": "icons/solid/ferret.svg",
+      "duotone": "icons/duotone/ferret.svg",
+      "inverse": "icons/inverse/ferret.svg"
     }
   },
   {
@@ -1405,7 +1423,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/frog.svg"
+      "outline": "icons/outline/frog.svg",
+      "solid": "icons/solid/frog.svg",
+      "duotone": "icons/duotone/frog.svg",
+      "inverse": "icons/inverse/frog.svg"
     }
   },
   {
@@ -1426,7 +1447,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/goat.svg"
+      "outline": "icons/outline/goat.svg",
+      "solid": "icons/solid/goat.svg",
+      "duotone": "icons/duotone/goat.svg",
+      "inverse": "icons/inverse/goat.svg"
     }
   },
   {
@@ -1450,7 +1474,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/guinea-pig.svg"
+      "outline": "icons/outline/guinea-pig.svg",
+      "solid": "icons/solid/guinea-pig.svg",
+      "duotone": "icons/duotone/guinea-pig.svg",
+      "inverse": "icons/inverse/guinea-pig.svg"
     }
   },
   {
@@ -1473,7 +1500,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/hamster.svg"
+      "outline": "icons/outline/hamster.svg",
+      "solid": "icons/solid/hamster.svg",
+      "duotone": "icons/duotone/hamster.svg",
+      "inverse": "icons/inverse/hamster.svg"
     }
   },
   {
@@ -1494,7 +1524,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/horse.svg"
+      "outline": "icons/outline/horse.svg",
+      "solid": "icons/solid/horse.svg",
+      "duotone": "icons/duotone/horse.svg",
+      "inverse": "icons/inverse/horse.svg"
     }
   },
   {
@@ -1517,7 +1550,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/mouse.svg"
+      "outline": "icons/outline/mouse.svg",
+      "solid": "icons/solid/mouse.svg",
+      "duotone": "icons/duotone/mouse.svg",
+      "inverse": "icons/inverse/mouse.svg"
     }
   },
   {
@@ -1539,7 +1575,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/pig.svg"
+      "outline": "icons/outline/pig.svg",
+      "solid": "icons/solid/pig.svg",
+      "duotone": "icons/duotone/pig.svg",
+      "inverse": "icons/inverse/pig.svg"
     }
   },
   {
@@ -1568,7 +1607,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/primate.svg"
+      "outline": "icons/outline/primate.svg",
+      "solid": "icons/solid/primate.svg",
+      "duotone": "icons/duotone/primate.svg",
+      "inverse": "icons/inverse/primate.svg"
     }
   },
   {
@@ -1589,7 +1631,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/rabbit.svg"
+      "outline": "icons/outline/rabbit.svg",
+      "solid": "icons/solid/rabbit.svg",
+      "duotone": "icons/duotone/rabbit.svg",
+      "inverse": "icons/inverse/rabbit.svg"
     }
   },
   {
@@ -1612,7 +1657,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/rat.svg"
+      "outline": "icons/outline/rat.svg",
+      "solid": "icons/solid/rat.svg",
+      "duotone": "icons/duotone/rat.svg",
+      "inverse": "icons/inverse/rat.svg"
     }
   },
   {
@@ -1633,7 +1681,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/sheep.svg"
+      "outline": "icons/outline/sheep.svg",
+      "solid": "icons/solid/sheep.svg",
+      "duotone": "icons/duotone/sheep.svg",
+      "inverse": "icons/inverse/sheep.svg"
     }
   },
   {
@@ -1654,7 +1705,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/turkey.svg"
+      "outline": "icons/outline/turkey.svg",
+      "solid": "icons/solid/turkey.svg",
+      "duotone": "icons/duotone/turkey.svg",
+      "inverse": "icons/inverse/turkey.svg"
     }
   },
   {
@@ -1675,7 +1729,10 @@
       ]
     },
     "styles": {
-      "outline": "icons/species/zebrafish.svg"
+      "outline": "icons/outline/zebrafish.svg",
+      "solid": "icons/solid/zebrafish.svg",
+      "duotone": "icons/duotone/zebrafish.svg",
+      "inverse": "icons/inverse/zebrafish.svg"
     }
   },
   {
