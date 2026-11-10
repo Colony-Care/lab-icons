@@ -20,8 +20,8 @@ describe('react components', () => {
   it('exports one component per species and lab icon and none for views', () => {
     const names = components.map(([n]) => n)
     expect(speciesNames).toHaveLength(19)
-    expect(labNames).toHaveLength(45)
-    expect(new Set(allNames).size).toBe(64)
+    expect(labNames).toHaveLength(44)
+    expect(new Set(allNames).size).toBe(63)
     expect([...names].sort()).toEqual([...allNames].sort())
     expect(Object.keys(react).sort()).toEqual([...allNames].sort())
   })
@@ -43,7 +43,7 @@ describe('react components', () => {
     expect(renderToStaticMarkup(<MouseIcon variant="duotone" />)).toContain('fill-opacity')
   })
 
-  it('all 64 components accept variant and render four different markups', () => {
+  it('all 63 components accept variant and render four different markups', () => {
     for (const n of allNames) {
       const C = (react as any)[n]
       const out = variants.map((v) => renderToStaticMarkup(<C variant={v} />))

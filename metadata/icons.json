@@ -588,34 +588,6 @@
     }
   },
   {
-    "slug": "marmoset",
-    "set": "lab",
-    "category": "organisms",
-    "file": "icons/outline/marmoset.svg",
-    "styles": {
-      "outline": "icons/outline/marmoset.svg",
-      "solid": "icons/solid/marmoset.svg",
-      "duotone": "icons/duotone/marmoset.svg",
-      "inverse": "icons/inverse/marmoset.svg"
-    },
-    "name": {
-      "en": "Marmoset",
-      "fr": "Ouistiti"
-    },
-    "tags": {
-      "en": [
-        "marmoset",
-        "model organisms",
-        "lab"
-      ],
-      "fr": [
-        "ouistiti",
-        "organismes modèles",
-        "laboratoire"
-      ]
-    }
-  },
-  {
     "slug": "medaka",
     "set": "lab",
     "category": "organisms",
@@ -1596,14 +1568,20 @@
         "primate",
         "nhp",
         "monkey",
-        "macaque"
+        "macaque",
+        "marmoset",
+        "callithrix",
+        "capuchin"
       ],
       "fr": [
         "animal de laboratoire",
         "primate",
         "PNH",
         "singe",
-        "macaque"
+        "macaque",
+        "ouistiti",
+        "callithrix",
+        "capucin"
       ]
     },
     "styles": {

@@ -30,7 +30,7 @@ Free SVG icons of laboratory animals, anatomical views and lab equipment, for sc
 
 | Species icons | Anatomical views | Lab icons |
 | --- | --- | --- |
-| 19 icons in four styles, 64×64, drawn in `currentColor` | 41 views: dorsal, ventral, lateral, across 22 species | 45 icons in four styles: organisms, vivarium, bench, instruments, organs and cells |
+| 19 icons in four styles, 64×64, drawn in `currentColor` | 41 views: dorsal, ventral, lateral, across 22 species | 44 icons in four styles: organisms, vivarium, bench, instruments, organs and cells |
 
 ## Use it
 
@@ -50,11 +50,11 @@ import { MouseIcon } from '@colony-care/lab-icons/react'
 <MouseIcon size={32} title="Lab mouse" />
 ```
 
-The React components cover the 19 species icons and the 45 lab icons. The 41 anatomical views ship as SVG files only. Component names are the PascalCase slug followed by `Icon`, for example `co2-incubator` becomes `Co2IncubatorIcon` and `e-coli` becomes `EColiIcon`.
+The React components cover the 19 species icons and the 44 lab icons. The 41 anatomical views ship as SVG files only. Component names are the PascalCase slug followed by `Icon`, for example `co2-incubator` becomes `Co2IncubatorIcon` and `e-coli` becomes `EColiIcon`.
 
 ### Styles
 
-All 64 icons, the 19 species and the 45 lab icons, come in four styles, each in its own folder (for example `icons/solid/mouse.svg`):
+All 63 icons, the 19 species and the 44 lab icons, come in four styles, each in its own folder (for example `icons/solid/mouse.svg`):
 
 | Style | Folder |
 | --- | --- |
@@ -169,7 +169,6 @@ In a paper, put it in the figure legend or in the acknowledgements.
 | `c-elegans` | C. elegans | C. elegans | outline, solid, duotone, inverse |
 | `drosophila` | Fruit fly | Drosophile | outline, solid, duotone, inverse |
 | `e-coli` | E. coli | Bactérie E. coli | outline, solid, duotone, inverse |
-| `marmoset` | Marmoset | Ouistiti | outline, solid, duotone, inverse |
 | `medaka` | Medaka | Médaka | outline, solid, duotone, inverse |
 | `xenopus` | Xenopus | Xénope | outline, solid, duotone, inverse |
 | `yeast` | Yeast | Levure | outline, solid, duotone, inverse |
@@ -247,7 +246,7 @@ Colony Care is lab animal colony management software for research facilities, bu
 
 | Icônes d’espèces | Vues anatomiques | Icônes de laboratoire |
 | --- | --- | --- |
-| 19 icônes en quatre styles, 64×64, dessinées en `currentColor` | 41 vues : dorsale, ventrale, latérale, pour 22 espèces | 45 icônes en quatre styles : organismes, animalerie, paillasse, instruments, organes et cellules |
+| 19 icônes en quatre styles, 64×64, dessinées en `currentColor` | 41 vues : dorsale, ventrale, latérale, pour 22 espèces | 44 icônes en quatre styles : organismes, animalerie, paillasse, instruments, organes et cellules |
 
 ### Utilisation
 
@@ -267,9 +266,9 @@ import { MouseIcon } from '@colony-care/lab-icons/react'
 <MouseIcon size={32} title="Souris de laboratoire" />
 ```
 
-Les composants React couvrent les 19 icônes d’espèces et les 45 icônes de laboratoire. Les 41 vues anatomiques sont fournies uniquement en fichiers SVG. Le nom d’un composant est le slug en PascalCase suivi de `Icon` : par exemple, `co2-incubator` devient `Co2IncubatorIcon` et `e-coli` devient `EColiIcon`.
+Les composants React couvrent les 19 icônes d’espèces et les 44 icônes de laboratoire. Les 41 vues anatomiques sont fournies uniquement en fichiers SVG. Le nom d’un composant est le slug en PascalCase suivi de `Icon` : par exemple, `co2-incubator` devient `Co2IncubatorIcon` et `e-coli` devient `EColiIcon`.
 
-**Styles.** Les 64 icônes, soit les 19 espèces et les 45 icônes de laboratoire, existent en quatre styles, chacun dans son propre dossier (par exemple `icons/solid/mouse.svg`) : `icons/outline/` (contour), `icons/solid/` (plein), `icons/duotone/` (bicolore) et `icons/inverse/` (inversé). En React, choisissez-en un avec la propriété `variant` (contour par défaut) :
+**Styles.** Les 63 icônes, soit les 19 espèces et les 44 icônes de laboratoire, existent en quatre styles, chacun dans son propre dossier (par exemple `icons/solid/mouse.svg`) : `icons/outline/` (contour), `icons/solid/` (plein), `icons/duotone/` (bicolore) et `icons/inverse/` (inversé). En React, choisissez-en un avec la propriété `variant` (contour par défaut) :
 
 ```tsx
 import { MicroscopeIcon } from '@colony-care/lab-icons/react'
@@ -373,7 +372,6 @@ Dans un article scientifique, placez-la dans la légende de la figure ou dans le
 | `c-elegans` | C. elegans | C. elegans | outline, solid, duotone, inverse |
 | `drosophila` | Fruit fly | Drosophile | outline, solid, duotone, inverse |
 | `e-coli` | E. coli | Bactérie E. coli | outline, solid, duotone, inverse |
-| `marmoset` | Marmoset | Ouistiti | outline, solid, duotone, inverse |
 | `medaka` | Medaka | Médaka | outline, solid, duotone, inverse |
 | `xenopus` | Xenopus | Xénope | outline, solid, duotone, inverse |
 | `yeast` | Yeast | Levure | outline, solid, duotone, inverse |

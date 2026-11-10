@@ -23,13 +23,13 @@ describe('built package', () => {
     expect(react.MouseIcon).toBeTruthy()
     expect(typeof react.MouseIcon.render).toBe('function')
     const root = require('../dist/index.cjs')
-    expect(root.icons).toHaveLength(105)
+    expect(root.icons).toHaveLength(104)
   })
 
   it('marks every icon as pure so bundlers can tree-shake', () => {
     for (const f of ['dist/react/index.js', 'dist/react/index.cjs']) {
       const code = readFileSync(f, 'utf8')
-      expect(code.match(/(?:@__PURE__|#__PURE__) \*\/ createIcon\(/g)).toHaveLength(64)
+      expect(code.match(/(?:@__PURE__|#__PURE__) \*\/ createIcon\(/g)).toHaveLength(63)
     }
   })
 

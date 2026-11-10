@@ -33,7 +33,7 @@ describe.each(sets)('$name icons', ({ name, maxBytes, lab, rootTag: labRoot }) =
 
   it('has icons', () => {
     expect(files.length).toBeGreaterThan(0)
-    if (lab) expect(files).toHaveLength(64)
+    if (lab) expect(files).toHaveLength(63)
   })
 
   it.each(files)('%s is clean', (file) => {
