@@ -1,7 +1,7 @@
 export type IconSet = 'species' | 'views' | 'lab'
 export type IconStyle = 'outline' | 'solid' | 'duotone' | 'inverse'
 export type IconCategory = 'organisms' | 'vivarium' | 'bench' | 'instruments' | 'biology'
-export type IconView = 'dorsal' | 'ventral' | 'lateral'
+export type IconView = 'dorsal' | 'ventral' | 'lateral' | 'left' | 'right'
 
 export interface IconEntry {
   /** kebab-case, unique across all sets */

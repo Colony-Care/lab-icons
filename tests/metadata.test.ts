@@ -31,9 +31,9 @@ describe('metadata', () => {
 
   it('counts', () => {
     expect(entries.filter((e) => e.set === 'species')).toHaveLength(19)
-    expect(entries.filter((e) => e.set === 'views')).toHaveLength(41)
+    expect(entries.filter((e) => e.set === 'views')).toHaveLength(43)
     expect(entries.filter((e) => e.set === 'lab')).toHaveLength(44)
-    expect(entries).toHaveLength(104)
+    expect(entries).toHaveLength(106)
   })
 
   it('lab entries carry a category and all four styles pointing to existing files', () => {

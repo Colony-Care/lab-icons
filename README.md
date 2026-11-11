@@ -30,7 +30,7 @@ Free SVG icons of laboratory animals, anatomical views and lab equipment, for sc
 
 | Species icons | Anatomical views | Lab icons |
 | --- | --- | --- |
-| 19 icons in four styles, 64×64, drawn in `currentColor` | 41 views: dorsal, ventral, lateral, across 22 species | 44 icons in four styles: organisms, vivarium, bench, instruments, organs and cells |
+| 19 icons in four styles, 64×64, drawn in `currentColor` | 43 views: dorsal, ventral, side (left and right), across 22 species | 44 icons in four styles: organisms, vivarium, bench, instruments, organs and cells |
 
 ## Use it
 
@@ -50,7 +50,7 @@ import { MouseIcon } from '@colony-care/lab-icons/react'
 <MouseIcon size={32} title="Lab mouse" />
 ```
 
-The React components cover the 19 species icons and the 44 lab icons. The 41 anatomical views ship as SVG files only. Component names are the PascalCase slug followed by `Icon`, for example `co2-incubator` becomes `Co2IncubatorIcon` and `e-coli` becomes `EColiIcon`.
+The React components cover the 19 species icons and the 44 lab icons. The 43 anatomical views ship as SVG files only. Component names are the PascalCase slug followed by `Icon`, for example `co2-incubator` becomes `Co2IncubatorIcon` and `e-coli` becomes `EColiIcon`.
 
 ### Styles
 
@@ -123,7 +123,8 @@ In a paper, put it in the figure legend or in the acknowledgements.
 | `capuchin-ventral` | Capuchin monkey, ventral view | Capucin, vue ventrale |
 | `cat-dorsal` | Cat, dorsal view | Chat, vue dorsale |
 | `cat-ventral` | Cat, ventral view | Chat, vue ventrale |
-| `cattle-dorsal` | Cattle, dorsal view | Bovin, vue dorsale |
+| `cattle-left` | Cattle, left side view | Bovin, vue latérale gauche |
+| `cattle-right` | Cattle, right side view | Bovin, vue latérale droite |
 | `chicken-dorsal` | Chicken, dorsal view | Poulet, vue dorsale |
 | `chicken-ventral` | Chicken, ventral view | Poulet, vue ventrale |
 | `cotton-rat-dorsal` | Cotton rat, dorsal view | Rat du coton, vue dorsale |
@@ -142,7 +143,8 @@ In a paper, put it in the figure legend or in the acknowledgements.
 | `guinea-pig-ventral` | Guinea pig, ventral view | Cobaye, vue ventrale |
 | `hamster-dorsal` | Hamster, dorsal view | Hamster, vue dorsale |
 | `hamster-ventral` | Hamster, ventral view | Hamster, vue ventrale |
-| `horse-dorsal` | Horse, dorsal view | Cheval, vue dorsale |
+| `horse-left` | Horse, left side view | Cheval, vue latérale gauche |
+| `horse-right` | Horse, right side view | Cheval, vue latérale droite |
 | `minipig-dorsal` | Minipig, dorsal view | Miniporc, vue dorsale |
 | `minipig-ventral` | Minipig, ventral view | Miniporc, vue ventrale |
 | `mouse-dorsal` | Mouse, dorsal view | Souris, vue dorsale |
@@ -246,7 +248,7 @@ Colony Care is lab animal colony management software for research facilities, bu
 
 | Icônes d’espèces | Vues anatomiques | Icônes de laboratoire |
 | --- | --- | --- |
-| 19 icônes en quatre styles, 64×64, dessinées en `currentColor` | 41 vues : dorsale, ventrale, latérale, pour 22 espèces | 44 icônes en quatre styles : organismes, animalerie, paillasse, instruments, organes et cellules |
+| 19 icônes en quatre styles, 64×64, dessinées en `currentColor` | 43 vues : dorsale, ventrale, latérale (gauche et droite), pour 22 espèces | 44 icônes en quatre styles : organismes, animalerie, paillasse, instruments, organes et cellules |
 
 ### Utilisation
 
@@ -266,7 +268,7 @@ import { MouseIcon } from '@colony-care/lab-icons/react'
 <MouseIcon size={32} title="Souris de laboratoire" />
 ```
 
-Les composants React couvrent les 19 icônes d’espèces et les 44 icônes de laboratoire. Les 41 vues anatomiques sont fournies uniquement en fichiers SVG. Le nom d’un composant est le slug en PascalCase suivi de `Icon` : par exemple, `co2-incubator` devient `Co2IncubatorIcon` et `e-coli` devient `EColiIcon`.
+Les composants React couvrent les 19 icônes d’espèces et les 44 icônes de laboratoire. Les 43 vues anatomiques sont fournies uniquement en fichiers SVG. Le nom d’un composant est le slug en PascalCase suivi de `Icon` : par exemple, `co2-incubator` devient `Co2IncubatorIcon` et `e-coli` devient `EColiIcon`.
 
 **Styles.** Les 63 icônes, soit les 19 espèces et les 44 icônes de laboratoire, existent en quatre styles, chacun dans son propre dossier (par exemple `icons/solid/mouse.svg`) : `icons/outline/` (contour), `icons/solid/` (plein), `icons/duotone/` (bicolore) et `icons/inverse/` (inversé). En React, choisissez-en un avec la propriété `variant` (contour par défaut) :
 
@@ -326,7 +328,8 @@ Dans un article scientifique, placez-la dans la légende de la figure ou dans le
 | `capuchin-ventral` | Capuchin monkey, ventral view | Capucin, vue ventrale |
 | `cat-dorsal` | Cat, dorsal view | Chat, vue dorsale |
 | `cat-ventral` | Cat, ventral view | Chat, vue ventrale |
-| `cattle-dorsal` | Cattle, dorsal view | Bovin, vue dorsale |
+| `cattle-left` | Cattle, left side view | Bovin, vue latérale gauche |
+| `cattle-right` | Cattle, right side view | Bovin, vue latérale droite |
 | `chicken-dorsal` | Chicken, dorsal view | Poulet, vue dorsale |
 | `chicken-ventral` | Chicken, ventral view | Poulet, vue ventrale |
 | `cotton-rat-dorsal` | Cotton rat, dorsal view | Rat du coton, vue dorsale |
@@ -345,7 +348,8 @@ Dans un article scientifique, placez-la dans la légende de la figure ou dans le
 | `guinea-pig-ventral` | Guinea pig, ventral view | Cobaye, vue ventrale |
 | `hamster-dorsal` | Hamster, dorsal view | Hamster, vue dorsale |
 | `hamster-ventral` | Hamster, ventral view | Hamster, vue ventrale |
-| `horse-dorsal` | Horse, dorsal view | Cheval, vue dorsale |
+| `horse-left` | Horse, left side view | Cheval, vue latérale gauche |
+| `horse-right` | Horse, right side view | Cheval, vue latérale droite |
 | `minipig-dorsal` | Minipig, dorsal view | Miniporc, vue dorsale |
 | `minipig-ventral` | Minipig, ventral view | Miniporc, vue ventrale |
 | `mouse-dorsal` | Mouse, dorsal view | Souris, vue dorsale |

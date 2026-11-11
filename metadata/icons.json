@@ -1814,29 +1814,59 @@
     }
   },
   {
-    "slug": "cattle-dorsal",
+    "slug": "cattle-left",
     "set": "views",
     "species": "cattle",
-    "view": "dorsal",
-    "file": "icons/views/cattle-dorsal.svg",
+    "view": "left",
+    "file": "icons/views/cattle-left.svg",
     "name": {
-      "en": "Cattle, dorsal view",
-      "fr": "Bovin, vue dorsale"
+      "en": "Cattle, left side view",
+      "fr": "Bovin, vue latérale gauche"
     },
     "tags": {
       "en": [
         "lab animal",
         "cow",
-        "top view"
+        "side view",
+        "left side"
       ],
       "fr": [
         "animal de laboratoire",
         "vache",
-        "vue de dessus"
+        "vue de côté",
+        "côté gauche"
       ]
     },
     "styles": {
-      "outline": "icons/views/cattle-dorsal.svg"
+      "outline": "icons/views/cattle-left.svg"
+    }
+  },
+  {
+    "slug": "cattle-right",
+    "set": "views",
+    "species": "cattle",
+    "view": "right",
+    "file": "icons/views/cattle-right.svg",
+    "name": {
+      "en": "Cattle, right side view",
+      "fr": "Bovin, vue latérale droite"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "cow",
+        "side view",
+        "right side"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vache",
+        "vue de côté",
+        "côté droit"
+      ]
+    },
+    "styles": {
+      "outline": "icons/views/cattle-right.svg"
     }
   },
   {
@@ -2294,27 +2324,55 @@
     }
   },
   {
-    "slug": "horse-dorsal",
+    "slug": "horse-left",
     "set": "views",
     "species": "horse",
-    "view": "dorsal",
-    "file": "icons/views/horse-dorsal.svg",
+    "view": "left",
+    "file": "icons/views/horse-left.svg",
     "name": {
-      "en": "Horse, dorsal view",
-      "fr": "Cheval, vue dorsale"
+      "en": "Horse, left side view",
+      "fr": "Cheval, vue latérale gauche"
     },
     "tags": {
       "en": [
         "lab animal",
-        "top view"
+        "side view",
+        "left side"
       ],
       "fr": [
         "animal de laboratoire",
-        "vue de dessus"
+        "vue de côté",
+        "côté gauche"
       ]
     },
     "styles": {
-      "outline": "icons/views/horse-dorsal.svg"
+      "outline": "icons/views/horse-left.svg"
+    }
+  },
+  {
+    "slug": "horse-right",
+    "set": "views",
+    "species": "horse",
+    "view": "right",
+    "file": "icons/views/horse-right.svg",
+    "name": {
+      "en": "Horse, right side view",
+      "fr": "Cheval, vue latérale droite"
+    },
+    "tags": {
+      "en": [
+        "lab animal",
+        "side view",
+        "right side"
+      ],
+      "fr": [
+        "animal de laboratoire",
+        "vue de côté",
+        "côté droit"
+      ]
+    },
+    "styles": {
+      "outline": "icons/views/horse-right.svg"
     }
   },
   {
