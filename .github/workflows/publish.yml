@@ -17,12 +17,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # No registry-url: it writes an .npmrc with a placeholder token that npm
+      # would send instead of the OIDC exchange.
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-          registry-url: https://registry.npmjs.org
       - name: Use npm 11 (staged publishing)
-        run: npm install -g npm@11
+        run: npm install -g npm@11 && npm --version
       - name: Tag matches package.json version
         run: test "v$(node -p "require('./package.json').version")" = "$GITHUB_REF_NAME"
       - run: npm ci
