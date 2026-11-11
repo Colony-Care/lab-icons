@@ -6,7 +6,7 @@
 
 Free SVG icons of laboratory animals, anatomical views and lab equipment, for scientific figures, posters and lab software.
 
-[Browse the icons](#icon-list) · [Colony Care](https://colony.care) · [npm](https://www.npmjs.com/package/@colony-care/lab-icons) · [Version française](#français)
+[Browse the icons](https://colony.care/en/icons) · [Colony Care](https://colony.care) · [npm](https://www.npmjs.com/package/@colony-care/lab-icons) · [Version française](#français)
 
 [![npm version](https://img.shields.io/npm/v/@colony-care/lab-icons?style=flat)](https://www.npmjs.com/package/@colony-care/lab-icons)
 [![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC%20BY%204.0-blue?style=flat)](LICENSE)
@@ -36,7 +36,7 @@ Free SVG icons of laboratory animals, anatomical views and lab equipment, for sc
 
 ### Download
 
-The SVG files are in the [`icons/` folder](https://github.com/Colony-Care/lab-icons/tree/main/icons) of this repository. A browsable gallery on colony.care is coming.
+Browse and download every icon on [colony.care/en/icons](https://colony.care/en/icons): each icon and each anatomical view has its own page with SVG and PNG downloads. The same files are in the [`icons/` folder](https://github.com/Colony-Care/lab-icons/tree/main/icons) of this repository.
 
 ### npm and React
 
@@ -82,7 +82,7 @@ The SVG files ship in the package, for example `@colony-care/lab-icons/icons/out
 Please credit the icons with this line:
 
 ```text
-Icons: Colony Care (https://colony.care), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Icons: Colony Care (https://colony.care/en/icons), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 ```
 
 In a paper, put it in the figure legend or in the acknowledgements.
@@ -252,7 +252,7 @@ Colony Care is lab animal colony management software for research facilities, bu
 
 ### Utilisation
 
-**Téléchargement.** Les fichiers SVG se trouvent dans le [dossier `icons/`](https://github.com/Colony-Care/lab-icons/tree/main/icons) de ce dépôt. Une galerie consultable sur colony.care arrive bientôt.
+**Téléchargement.** Parcourez et téléchargez chaque icône sur [colony.care/fr-ca/icons](https://colony.care/fr-ca/icons) : chaque icône et chaque vue anatomique a sa page, avec les téléchargements SVG et PNG. Les mêmes fichiers se trouvent dans le [dossier `icons/`](https://github.com/Colony-Care/lab-icons/tree/main/icons) de ce dépôt.
 
 **npm et React.** Installez le paquet :
 
@@ -287,7 +287,7 @@ Les vues anatomiques n’existent que dans un seul style. Les fichiers d’origi
 Merci de citer les icônes avec cette ligne :
 
 ```text
-Icônes : Colony Care (https://colony.care/fr-ca), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.fr)
+Icônes : Colony Care (https://colony.care/fr-ca/icons), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.fr)
 ```
 
 Dans un article scientifique, placez-la dans la légende de la figure ou dans les remerciements.
